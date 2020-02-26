@@ -22,6 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'IFRA IIoT', // Title for your website.
+  disableHeaderTitle: true,
   tagline: 'IoT Platform for Manufacturing',
   url: '/', // Your website URL
   baseUrl: '/', // Base URL for your project */
