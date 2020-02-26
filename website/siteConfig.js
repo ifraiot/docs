@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'IFRA IIoT', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://ifraiot.github.io/docs/website/build/test-site/', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: 'https://ifraiot.github.io/docs/website/build/test-site/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
