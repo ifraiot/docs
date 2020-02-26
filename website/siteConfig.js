@@ -22,9 +22,11 @@ const users = [
 
 const siteConfig = {
   title: 'IFRA IIoT', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://ifraiot.github.io/docs/website/build/test-site/', // Your website URL
-  baseUrl: 'https://ifraiot.github.io/docs/website/build/test-site/', // Base URL for your project */
+  tagline: 'IoT Platform for Manufacturing',
+  url: '/', // Your website URL
+  baseUrl: '/', // Base URL for your project */
+  // url: 'https://ifraiot.github.io', // Your website URL
+  // baseUrl: 'docs/website/build/test-site/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -48,7 +50,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'https://ifra.io/img/ifra.png',
+  headerIcon: 'img/ifra-logo.png',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
@@ -73,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} IFRA IIoT Platform`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
