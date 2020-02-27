@@ -14,5 +14,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ifraiot/docs.git"
-  }
+  },
+  "license" : "GNU General Public License (GPL)" 
 }
