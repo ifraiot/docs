@@ -52,8 +52,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/ifra-logo.png',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  footerIcon: 'img/ifra-logo.png',
+  favicon: 'img/ifra-logo.png',
 
   /* Colors for website */
   colors: {
