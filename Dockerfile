@@ -3,6 +3,7 @@ FROM node:lts AS builder
 EXPOSE 3000 35729
 COPY . /app
 WORKDIR /app/website
+# RUN npm install --global docusaurus-init
 # RUN npm install
 RUN npm run build
 
