@@ -15,6 +15,7 @@ pipeline {
         stage('Build Services') {
             steps {
               sh 'ls -la'
+              sh 'cd website && npm install'
               sh 'docker version'
               script{
                 dockerImage = docker.build("ifrasoft/ifra-docs",".")
