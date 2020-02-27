@@ -5,7 +5,7 @@ COPY . /app
 WORKDIR /app/website
 # RUN npm install --global docusaurus-init
 # RUN npm install
-RUN npm run build
+# RUN npm run build
 
 
 
