@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Deployment K8S') {
             steps {
-                // sh "cat k8s/aws/cms-ngnix/cms-deployment.yaml | sed 's/{{IFRA_CMS_TAG}}/${env.BUILD_ID}/g' | kubectl apply -f -"
+                sh "cat docs-deployment.yaml | sed 's/{{IFRA_CMS_TAG}}/${env.BUILD_ID}/g' | kubectl apply -f -"
             }
         }
 
