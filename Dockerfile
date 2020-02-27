@@ -3,6 +3,6 @@ FROM node:lts
 EXPOSE 3000 35729
 COPY . /app
 WORKDIR /app/website
-RUN npm install
+RUN yarn install
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
