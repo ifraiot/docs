@@ -1,7 +1,7 @@
 ---
-id: welcome
+id: overview
 title: IFRA IIoT
-sidebar_label: 
+sidebar_label: ภาพรวมเกี่ยวกับ IFRA IIOT
 ---
 
 
