@@ -1,13 +1,13 @@
 {
   "docs": {
-    "เรียนรู้เกี่ยวกับ IFRA IIoT": ["welcome"],
-    "เริ่มต้นใช้งาน": ["getstarted"],
-    "Things": ["thing"],
-    "Devices": ["devices"],
-    "Measurement": ["measurement"],
-    "Dashboard": ["dashboard"],
-    "SDK": ["sdk"]
-
+    "IFRA IIOT": ["overview","getstarted"],
+    "Deverlopment":
+     ["Deverlopment/overviewde",
+      "Deverlopment/thing",
+      "Deverlopment/devices",
+      "Deverlopment/measurement",
+      "Deverlopment/dashboard"],
+    "Download": ["Download/sdk"]
   }
   
 }

@@ -1,7 +1,7 @@
 ---
 id: measurement
 title: Measurement
-sidebar_label: Example Page
+sidebar_label: Measurement
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.

@@ -41,10 +41,23 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'welcome', label: 'เอกสาร'},
+    {doc: 'overview', label: 'เอกสาร'},
+    {blog: true, label: 'บล๊อก'},
+    //{page: 'help', label: 'ฟีเจอร์'},
+    {
+      href: 'https://github.com/ifraiot',
+      label: 'GitHub',
+    },
  
   ],
 
+  algolia: {
+    apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+    indexName: 'docsearch',
+    algoliaOptions: {
+      facetFilters: [ "language:LANGUAGE", "version:VERSION" ]
+    } // Optional, if provided by Algolia
+  },
   // If you have users set above, you add it here:
   users,
 
