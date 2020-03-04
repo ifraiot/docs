@@ -6,7 +6,7 @@
     "Devices": ["devices"],
     "Measurement": ["measurement"],
     "Dashboard": ["dashboard"],
-    "SDK":["sdk"]
+    
   }
   
 }
