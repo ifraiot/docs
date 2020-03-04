@@ -1,6 +1,6 @@
 ---
-id: doc1
-title: Latin-ish
+id: measurement
+title: Measurement
 sidebar_label: Example Page
 ---
 
