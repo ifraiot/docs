@@ -1,6 +1,6 @@
 ---
-id: doc4
-title: Other Document
+id: devices
+title: Devices
 ---
 
 this is another document

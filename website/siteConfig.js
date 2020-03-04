@@ -41,10 +41,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'welcome', label: 'เอกสาร'},
+ 
   ],
 
   // If you have users set above, you add it here:
@@ -52,8 +50,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/ifra-logo.png',
-  footerIcon: 'img/ifra-logo.png',
-  favicon: 'img/ifra-logo.png',
+  footerIcon: 'img/icon.png',
+  favicon: 'img/icon.png',
 
   /* Colors for website */
   colors: {
