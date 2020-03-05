@@ -7,6 +7,138 @@
  
 /* your custom css */
 
+@font-face {
+    font-family: 'Prompt';
+    src: url('../font/Prompt-Regular.ttf');
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    font-family: 'Prompt' ,sans-serif !important;
+    color: #33444C!important;
+}
+
+.Header h2,
+.Header h3,
+.Header h4,
+.Header h5,
+.Header h6,
+.Header p,
+.Header a,
+.slidingNav a{
+    color: #ffffff !important;
+}
+.background-sky {
+    background-color: #1976d2;
+    /* background: linear-gradient(145deg,#0d47a1,#42a5f5); */
+}
+.hero {
+    position: absolute;
+    width: 100%;
+    min-height: 480px;
+    height: 80vh;
+    max-height: 490px;
+    padding: 48px 48px 32px;
+    transform: skewY(3deg);
+    transform-origin: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.fixedHeaderContainer{
+    background: #1976d2;
+}
+
+.button.hero-cta {
+    padding: 2px 34px 0;
+    font-weight: 600;
+    line-height: 40px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+
+.hero-cta:hover {
+    background: #2069bf;
+    border: 1px solid #2069bf;  
+}
+
+.nav-footer{
+    border-top: 1px solid #E0E4E7;
+    background: #ffffff;
+}
+.sitemap a,
+.copyright,
+.sitemap h5{
+    color: #637986 !important;
+}
+.homeContainer{
+    height: 360px;
+}
+
+.alignCenter{
+    background: #FBFBFC;
+}
+
+.imageAlignTop .blockImage {
+    margin-top: 20px;
+}
+
+
+.bnt-get-start{
+    display: flex;
+    justify-content: center;
+}
+
+
+.bnt-get-start{
+    text-align: center;
+}
+
+.bnt-get-start h2{
+    font-size: 20px;
+    margin-bottom: unset;
+}
+
+
+.bnt-get-start p{
+    font-size: 12px;
+    text-transform: none;
+}
+
+
+
+.bnt-get-start a:hover{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 8px 8px rgba(10,16,20,.24), 0 0 8px rgba(10,16,20,.12) !important;
+}
+
+.bnt-get-start a{
+    transition: box-shadow .5s;
+    box-shadow: 0 6px 6px rgba(10,16,20,.15), 0 0 52px rgba(10,16,20,.12) !important;
+}
+
+.color-blue{
+    color: #1976d2!important;
+}
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+    background: hsla(0,0%,100%,.15);
+}
+
+.navigationSlider .slidingNav ul {
+    background: #1975d2;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
