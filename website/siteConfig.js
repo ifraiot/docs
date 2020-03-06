@@ -43,7 +43,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'overview', label: 'เอกสาร'},
-    {blog: true, label: 'บล๊อก'},
+    {href: 'https://blog.ifra.io/', label: 'บล็อก'},
     {
       href: 'https://github.com/ifraiot',
       label: 'GitHub',
