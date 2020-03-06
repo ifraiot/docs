@@ -20,6 +20,7 @@ const users = [
   },
 ];
 
+
 const siteConfig = {
   title: 'IFRA IIoT', // Title for your website.
   disableHeaderTitle: true,
@@ -43,7 +44,6 @@ const siteConfig = {
   headerLinks: [
     {doc: 'overview', label: 'เอกสาร'},
     {blog: true, label: 'บล๊อก'},
-    //{page: 'help', label: 'ฟีเจอร์'},
     {
       href: 'https://github.com/ifraiot',
       label: 'GitHub',
@@ -68,30 +68,28 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#122f3b',
-    secondaryColor: '#178cb0',
+    primaryColor: '#000',
+    secondaryColor: '#eee',
   },
-
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
+      'Times New Roman',
+      'Serif'
     ],
     myOtherFont: [
-      "-apple-system",
-      "system-ui"
+      '-apple-system',
+      'system-ui'
     ]
   },
-  */
+
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} IFRA IIoT Platform`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'vs2015',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -119,6 +117,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  
 };
 
 module.exports = siteConfig;
