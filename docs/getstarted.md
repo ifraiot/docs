@@ -1,8 +1,8 @@
 ---
 id: getstarted
-title: Thing Management 
+title: เปิด-ปิด ไฟโดยใช้บอร์ด ESP32 ผ่านระบบ IFRA IIOT
 sidebar_label: เริ่มต้นใช้งาน
 ---
-เมนู Thing Management เป็นเมนูสำหรับจัดการอุปกรณ์ IoT ถ้านำอุปกรณ์ IoT ไปติดตั้งที่เครื่องจักร 
+
 
 ![alt-text](/img/ifra-logo.png)
