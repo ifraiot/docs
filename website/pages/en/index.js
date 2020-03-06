@@ -59,12 +59,11 @@ class Header extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href={docUrl('overview')}>Get Start</Button>
+            <Button href={docUrl('overview')}>เริ่มต้นใช้งาน</Button>
           </PromoSection>
         </div>
       </SplashContainer>
     );
- 
   }
 }
 
@@ -81,13 +80,12 @@ class Body extends React.Component {
       <Container
       padding={[ 'top']}
       className='TextHeader'>
-       <h1 class="color-blue">IFRA IIoT Documentation</h1>
-       <h3>Get started with IFRA IIoT</h3>
-       <p>Try our multi-part walkthrough that covers writing your first app,
-          data storage, networking, and swarms, and ends with your app running on
-          production servers in the cloud. Total reading time is less than an hour.
+       <h1 class="color-blue">การใช้งาน IFRA IIoT</h1>
+       <h3>เริ่มต้นใช้งานกับแพลตฟอร์ม IFRA IIoT</h3>
+       <p  style={{textIndent: '50px'}}>IFRA IIoT เป็นแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม ที่จะช่วยให้โรงงานสามารถนำ IoT มาใช้ใภายในโรงงาน
+       ได้อย่างมีประสิทธิภาพสูงสุด โดยแพลตฟอร์มนั้นถูกออกแบบให้สามารถใช้งานง่ายต่อการสร้างวิธีการแก้ปัญหาที่เกิดขึ้นภายในโรงงาน
         </p>
-        <h2 class="color-blue">Performent</h2>
+        <h2 class="color-blue">ลักษณะเฉพาะ</h2>
     </Container>
     );
 
@@ -106,22 +104,22 @@ class Body extends React.Component {
       <Block layout="threeColumn" align="center">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'สามารถสร้าง Dashborad เพื่อดูข้อมูลได้แบบ real time ',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'ข้อมูลแบบ Real time',
           },
           {
-            content: 'The content of my second feature',
+            content: 'สร้าง Solution ง่ายๆในการแก้ปัญหาโรงงานด้วย Drag and drop',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'แก้ปัญหาด้วย Drag and drop',
           },
           {
-            content: 'This is the content of my feature',
+            content: 'การรับข้อมูลแบบ Strmaing ที่สามารถจัดการกับ Big data ได้ง่ายๆ',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'จัดการข้อมูลแบบ Straming',
           },
         ]}
 
@@ -131,11 +129,10 @@ class Body extends React.Component {
     const Button = () => (
       <Container
       padding={['bottom']}>
-    
     <div className=" bnt-get-start">
         <a className="button hero-cta" href={docUrl('overview')}>
-         <h2 class="color-blue"> Get start with IFRA</h2>
-         <p>Start building solution with IFRA.</p>
+         <h2 class="color-blue"> เริ่มต้นใช้งานกับ IFRA</h2>
+         <p style={{marginTop: '10px'}}>สร้างวิธีการแก้ปัญหาด้วยแพลตฟอร์ม IFRA.</p>
         </a>
       </div>
     
