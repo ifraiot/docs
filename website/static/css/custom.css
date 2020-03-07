@@ -163,6 +163,18 @@ p{
 .imageAlignTop .blockImage {
     max-width: 110px;
 }
+.toc .toggleNav ul li a {
+    font-weight: 400;
+}
+
+.toc .toggleNav ul li.navListItemActive a {
+    font-weight: 600;
+    color: #1975d2!important;
+}
+
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+    font-weight: 600;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
