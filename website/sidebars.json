@@ -3,12 +3,16 @@
     "IFRA IIOT": 
     ["overview",
     "getstarted"],
-    "Deverlopment":
-     ["Deverlopment/overviewde",
-      "Deverlopment/thing",
-      "Deverlopment/devices",
-      "Deverlopment/measurement",
-      "Deverlopment/dashboard"],
+    "ภาพรวม":["Overview/overviewde"],
+    "Device Management":
+     [
+      "Device_management/thing",
+      "Device_management/devices",
+      "Device_management/measurement"
+      ],
+    "Real-Time Dashboard":[
+      "Dashboard/chart_widget",
+      "Dashboard/control_widget"],  
     "Download": ["Download/sdk"]
   }
   
