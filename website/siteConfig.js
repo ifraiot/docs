@@ -24,7 +24,7 @@ const users = [
 const siteConfig = {
   title: 'IFRA IIoT', // Title for your website.
   disableHeaderTitle: true,
-  tagline: 'IoT Platform for Manufacturing',
+  tagline: 'IoT แพลตฟอร์มสำหรับโรงงานอุตสาหกรรม',
   url: '/', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // url: 'https://ifraiot.github.io', // Your website URL

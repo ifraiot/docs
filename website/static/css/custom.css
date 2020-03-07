@@ -12,6 +12,22 @@
     src: url('../font/Prompt-Regular.ttf');
   }
 
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf');
+  } 
+  @font-face {
+    font-family: 'supermarket';
+    src: url('../font/supermarket.ttf');
+  } 
+
+  @font-face {
+    font-family: 'EkkamaiStandard';
+    src: url('../font/EkkamaiStandard-Light.ttf');
+  } 
+
+
+  
 h1,
 h2,
 h3,
@@ -20,8 +36,13 @@ h5,
 h6,
 p,
 a{
-    font-family: 'Prompt' ,sans-serif !important;
+    font-family: 'EkkamaiStandard' ,sans-serif !important;
     color: #33444C!important;
+    letter-spacing: .9px;
+    font-weight: 600;
+}
+p{
+    line-height: 28px;
 }
 
 .Header h2,
@@ -137,6 +158,10 @@ a{
 
 .navigationSlider .slidingNav ul {
     background: #1975d2;
+}
+
+.imageAlignTop .blockImage {
+    max-width: 110px;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
