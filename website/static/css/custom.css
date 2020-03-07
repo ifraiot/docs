@@ -26,6 +26,11 @@
     src: url('../font/EkkamaiStandard-Light.ttf');
   } 
 
+  @font-face {
+    font-family: 'HelveticaNeueLTCom-Md';
+    src: url('../font/HelveticaNeueLTCom-Md.ttf');
+  } 
+
 
   
 h1,
@@ -36,14 +41,28 @@ h5,
 h6,
 p,
 a{
-    font-family: 'EkkamaiStandard' ,sans-serif !important;
+    font-family: 'HelveticaNeueLTCom-Md' ,sans-serif !important;
     color: #33444C!important;
-    letter-spacing: .9px;
-    font-weight: 600;
+    /* letter-spacing: .9px;
+    font-weight: 400; */
 }
 p{
     line-height: 28px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.blockContent h2 p,
+.pluginWrapper a{
+    font-family: 'EkkamaiStandard' ,sans-serif !important;
+        letter-spacing: .9px;
+    font-weight: 1000;
+}
+
 
 .Header h2,
 .Header h3,
