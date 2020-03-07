@@ -105,21 +105,21 @@ class Body extends React.Component {
         {[
           {
             content: 'สามารถสร้าง Dashborad เพื่อดูข้อมูลได้แบบ real time ',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/fast.png`,
             imageAlign: 'top',
             title: 'ข้อมูลแบบ Real time',
           },
           {
             content: 'สร้าง Solution ง่ายๆในการแก้ปัญหาโรงงานด้วย Drag and drop',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/drag.png`,
             imageAlign: 'top',
             title: 'แก้ปัญหาด้วย Drag and drop',
           },
           {
-            content: 'การรับข้อมูลแบบ Strmaing ที่สามารถจัดการกับ Big data ได้ง่ายๆ',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'การรับข้อมูลแบบ streaming ที่สามารถจัดการกับ Big data ได้ง่ายๆ',
+            image: `${baseUrl}img/stream.png`,
             imageAlign: 'top',
-            title: 'จัดการข้อมูลแบบ Straming',
+            title: 'จัดการข้อมูลแบบ streaming',
           },
         ]}
 
