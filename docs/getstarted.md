@@ -51,12 +51,11 @@ sidebar_label: เริ่มต้นใช้งาน
 
 ![Image](/img/thing_success.png)
 
-เป็นการการลงทะเบียนอุปกรณ์สำเร็จ
+เป็นการลงทะเบียนอุปกรณ์สำเร็จ
 
 - การเขียน code และ เบิร์นลงบอร์ด ESP32 ด้วย IDE Arduino 
 
-เริ่มต้นให้ทำการ Download library ของ ifra จาก https://github.com/ifraiot/ifra-cpp-sdk
-
+เริ่มต้นให้ทำการ Download library ของ ifra จาก https://github.com/ifraiot/ifra-cpp-sdk 
 ลงไว้ใน file libraty ของ IDE Arduino ก่อนและให้ทำการ Copy โค้ดต่อไปนี้ลงใน IDE Arduino
 
 ```c++
@@ -104,9 +103,50 @@ void loop() {
 }
 ```
 
+จากในโค้ดนั้นค่าของ DEVICE_KEY, DEVICE_SECRET, CHANNEL และ NAME_MEASUREMENT ในโค้ด จะนำค่าเหล่านี้จาก หน้า Things Management ที่ได้ทำการลงทะเบียนอุปกรณ์ไปก่อนหน้านี้แล้ว โดย
 
-โดยใน โค้ด
+เข้า ไปยังเมนู Things Management แล้วกดเลือก Device ในหัวข้อ Manage ดังรูป
+![Image](/img/setting_thing_device.png)
+
+หลังจากเข้ามาแล้วให้กดรูป เฟือง (ด้านขวา) ดังรูป
+![Image](/img/add_device_success.png)
+
+จะเข้ามายังหน้าของรายละเอียด Device 
+![Image](/img/detail_device.png)
+โดยในหน้านี้จะมีค่าของ DEVICE_KEY, DEVICE_SECRET และ CHANNEL ให้ทำการ Copy ค่าเหล่านี้มาใส่ ภายใน Code ของ IDE Arduino
+
+ส่วน NAME_MEASUREMENT นั้นให้นำค่ามาจากการตั้ง Name ใน Measurement ดังรูป
+![Image](/img/name_measu.png) 
+โดยในตัวอย่างนี้จะใช้ชื่อว่า switch ดังที่กล่าวไปข้างต้น
+
+หลังจากนั้นค่าของ WIFI_SSID และ WIFI_PASSWORD จะตั้งค่าเป็น User และ Password ของ Wifi ตามลำดับ
 
 
+เมื่อทำการใส่ค่าที่ copy จากแพลตฟอร์ม ลงใน Code เสร็จเรียบร้อยแล้วให้ทำการกด เบิร์นลงบอร์ด ESP32
+*** ห้ามลืมเปลี่ยน Board ใน IDE Arduino เป็น ESP32 นะครับ
 
-สามารถดูเพิ่มเติมได้ที่ https://github.com/ifraiot
+
+เป็นการเขียน code และ เบิร์นลงบอร์ด ESP32 สำเร็จ
+
+
+- การสร้าง Dashboard ในแพลตฟอร์ม IFRA 
+
+หลังจากที่ลงทะเบียนอุปกรณ์ และเขียน code เพื่อเบิร์นลงบอร์ด ESP32 ได้สำเร็จแล้ว ขั้นตอนต่อมาคือการสร้าง Dashboard เพื่อควบคุมการ เปิด-ปิด LED ใน บอร์ด ESP32 โดยมีขั้นตอนดังนี้
+
+1. กดไปยังเมนู Dashboard และกดสร้าง Dashboard ![Image](/img/bnt_add_dashnoard.png) ตั้งชื่อ dashboard และกด save 
+เมื่อเข้ามายังหน้า Dashboard จเป็นดังรูป
+![Image](/img/dashboard_home_success.png) 
+
+2. กด Add Widget โดยหลังจากที่ทำการกดจะมี Popup ให้ทำการตั้งชื่อ และเลือก Widget แล้วจึงกด Next
+โดยในตัวอย่างนี้ ให้เลือก Widget เป็น Switch ดังรูป 
+![Image](/img/setting_add_dashboard.png) 
+
+3. หลังจากกด Next มาแล้วนั้น จะเป็นการเลือก Things, Devices และ Measurements ที่ได้ตั้งค่ามาแล้วข้างต้นโดยจะต้องเลือกชื่อที่ได้ตั้งตามในหัวข้อ "การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA"
+![Image](/img/add_widget.png) 
+เมื่อเลือกเรียบร้อยแล้วนั้นให้ กด Add Measurement ต่อจากนั้นจึงกด Next และกด Finlish
+
+จะได้ Widget เป็น Switch ที่ใช้ในการควบคุม LED ของบอร์ด ESP32 ได้สำเร็จ
+
+![Image](/img/dashboard_sw.png) 
+
+สามารถทดลองโดยการเปิด - ปิด Switch ใน หน้า
