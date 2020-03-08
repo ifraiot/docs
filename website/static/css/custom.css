@@ -33,12 +33,6 @@
 
 
   
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
 a{
     font-family: 'HelveticaNeueLTCom-Md' ,sans-serif !important;
@@ -194,6 +188,27 @@ h6,
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
     font-weight: 600;
 }
+
+
+.post 
+article p img {
+    border-radius: 20px;
+}
+
+.frame{
+    padding: 10px;
+    border: 1px solid rgba(204,204,204,0.29);
+}
+
+.imp-in-p {
+    margin: 0 10px;
+    position: relative;
+    top: 10px;
+    display: inline;
+    border-radius: 0 !important;
+
+}
+
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
