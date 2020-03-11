@@ -22,11 +22,11 @@ Software ที่จะต้องเตรียมคือ คือ
 ## การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA   
 
 เริ่มต้นผู้ใช้งานนั้น จะต้อง Register ผ่าน [แพลตฟอร์ม IFRA](ttps://ws.ifra.io/) ก่อน โดยหลังจาก Register เรียบร้อยแล้ว จะต้องเลือก Package สำหรับเริ่มต้นใช้งาน 
-> สำหรับ package นั้น ในแพลตฟอร์มจะมี package ฟรีสำหรับใช้ทดลองใช้งานอยู่
+> สำหรับ package นั้น ในแพลตฟอร์มจะมี package ฟรีสำหรับทดลองใช้งานอยู่
 
 สามารถดูรายละเอียด Package ได้ที่ [รายะเอียด Package](ttps://ws.ifra.io/)
 
-โดยหลังจาก Register และเลือก package เรียบร้องแล้ว ระบบจะพาเข้ามายังหน้าหลักของแพลตฟอร์มดังรูป
+โดยหลังจาก Register และเลือก Package เรียบร้องแล้ว ระบบจะพาเข้ามายังหน้าหลักของแพลตฟอร์มดังรูป
 <p class="frame">
 <img src="/img/dashboard_home.png">
 </p>
@@ -39,7 +39,7 @@ Software ที่จะต้องเตรียมคือ คือ
 <img src="/img/thing_home.png">
 </p>
 
-โดยจะต้องใส่ Name และ Tag ส่วน image นั้นจะใส่หรือไม่ใส่ก็ได้ หลังจากนั้น ให้กด Save
+โดยจะต้องใส่ Name และ Tag ส่วน image นั้นสามารถใส่หรือไม่ใส่ก็ได้ หลังจากนั้น ให้กด Save
 > หลังจากพิมพ์ชื่อ Tag ลงไปแล้วจะต้องกด Enter
 
 2. หลังจากเข้ามายังหน้า Thing จะมีการเพิ่มด้วยกัน 2 ส่วน คือ การเพิ่ม Devices และการเพิ่ม Measurement 
@@ -50,7 +50,8 @@ Software ที่จะต้องเตรียมคือ คือ
 
 ในการเพิ่มนั้นจะต้องเพิ่มจาก Devices ก่อนหลังจากนั้น จึงจะสามารถเพิ่ม Measurement ได้ 
 
-โดยการกด เพิ่ม device <img src="/img/add_device.png" class="imp-in-p">  หลังจากนั้นจะมี popup ให้ใส่ Name Device และ เลือก Hardware Platform โดยสำหรับผู้เริ่มต้นในตัวอย่างนี้ ให้กดเลือกเป็น ESP32 
+โดยการกด เพิ่ม device <img src="/img/add_device.png" class="imp-in-p">  หลังจากนั้นจะมี popup ให้ใส่ Name Device และ เลือก Hardware Platform 
+> โดยสำหรับผู้เริ่มต้นในตัวอย่างนี้ ให้กดเลือก Hardware Platform เป็น ESP32 
 
 <p class="frame">
 <img src="/img/add_device_popup.png">
@@ -58,9 +59,10 @@ Software ที่จะต้องเตรียมคือ คือ
 
 หลังจากทำการเพิ่ม Devices เสร็จเรียบร้อย ให้ทำการกดเพิ่ม Measurement<img src="/img/add_Measurement.png" class="imp-in-p"> 
 
-> โดยในตัวอย่างนี้ จะให้ขื่อ Measurement เป็นคำว่า switch ในการ เปิด-ปิด ไฟ 
 
 ให้เลือก Type เป็น Actuator ใส่ Name Measurement เป็น switch ใส่ Unit เป็น - ดังรูป และ กด Add
+
+> โดยในตัวอย่างนี้ จะให้ขื่อ Measurement เป็นคำว่า switch ในการ เปิด-ปิด ไฟ 
 
 <p class="frame">
 <img src="/img/add_Measurement_popup.png">
@@ -199,10 +201,9 @@ void loop() {
 
 ## สรุป
 จากตัวอย่างข้างต้น เราสามารถควบคุมการเปิด - ปิด LED ในบอร์ด ESP32 ได้จากแพลตฟอร์ม IFRA
-ได้เรียนรู้วิธีการลงทะเบียนอุปกรณ์กับแพลตฟอร์ม IFRA 
-การเขียน code และ เบิร์นลงบอร์ด ESP32 และการสร้าง Dashboard เพื่อควบคุม LED ในบอร์ด ESP32 
+ได้เรียนรู้วิธีการลงทะเบียนอุปกรณ์กับแพลตฟอร์ม IFRA การเขียน code และ เบิร์นลงบอร์ด ESP32 และการสร้าง Dashboard เพื่อควบคุม LED ในบอร์ด ESP32 
 
-บทความต่อไปจะเป็นรายละเอียดของแต่ละเมนูที่จะอธิายการทำงานต่างๆเพื่อใช้ในการสร้างSolution อื่นๆต่อไป
+บทความต่อไปจะเป็นรายละเอียดของแต่ละเมนูที่จะอธิายการทำงานต่างๆเพื่อใช้ในการสร้าง Solution อื่นๆต่อไป
 
 
 * [Device Management](/docs/Device_management/thing)
