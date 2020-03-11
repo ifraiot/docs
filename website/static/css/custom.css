@@ -31,6 +31,11 @@
     src: url('../font/HelveticaNeueLTCom-Md.ttf');
   } 
 
+  @font-face {
+    font-family: 'Kanit-Medium';
+    src: url('../font/Kanit-Medium.ttf');
+  } 
+
 
   
 p,
@@ -52,9 +57,9 @@ h5,
 h6,
 .blockContent h2 p,
 .pluginWrapper a{
-    font-family: 'EkkamaiStandard' ,sans-serif !important;
-        letter-spacing: .9px;
-    font-weight: 1000;
+    font-family: 'Kanit-Medium' ,sans-serif !important;
+        letter-spacing: .5px;
+    font-weight: 500;
 }
 
 
@@ -185,9 +190,6 @@ h6,
     color: #1975d2!important;
 }
 
-.toc .toggleNav .navGroup .navGroupCategoryTitle {
-    font-weight: 600;
-}
 
 
 .post 
