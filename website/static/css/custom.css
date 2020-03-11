@@ -106,8 +106,8 @@ h6,
 }
 
 .hero-cta:hover {
-    background: #2069bf;
-    border: 1px solid #2069bf;  
+    background: #2069bf !important;
+    border: 1px solid #2069bf !important;  
 }
 
 .nav-footer{
@@ -219,6 +219,12 @@ li a,
 p a{
     color: #1976d2 !important;
 }
+
+ .button:hover {
+    background: #1976d2;
+    color: #fff!important;
+    border: 1px solid #1976d2;
+} 
 
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
