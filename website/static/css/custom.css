@@ -183,8 +183,13 @@ h6,
 }
 .toc .toggleNav ul li a {
     font-weight: 400;
+    color: #33444C!important;
 }
-
+.onPageNav a{
+    color: #33444C!important;
+}
+.onPageNav .toc-headings > li > a.active,
+.onPageNav .toc-headings > li > a.hover,
 .toc .toggleNav ul li.navListItemActive a {
     font-weight: 600;
     color: #1975d2!important;
@@ -209,6 +214,10 @@ article p img {
     display: inline;
     border-radius: 0 !important;
 
+}
+li a,
+p a{
+    color: #1976d2 !important;
 }
 
 

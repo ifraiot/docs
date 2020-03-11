@@ -10,7 +10,7 @@ sidebar_label: เริ่มต้นใช้งาน
 ในเอกสารนี้เหมาะสำหรับผู้ใช้งานที่ยังไม่มีพื้นฐานสำหรับการใช้งานแพลตฟอร์ม IoT โดยในเอกสารนี้จะสอนการควบคุม เปิด-ปิด LED ใน ESP32 ผ่านแพลตฟอร์ม เพื่อให้ผู้ใช้งานเข้าใจการทำงานเบื้องต้นของแพลตฟอร์ม IFRA 
 
 * [การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)
-* [การเขียน code บน IDE Arduino](#การเขียน-code-บน-ide-arduino)
+* [การเขียน code บน IDE Arduino](#การเขียนโค้ดบน-arduino-ide)
 * [การสร้าง Dashboard ในแพลตฟอร์ม IFRA](#การสร้าง-dashboard-ในแพลตฟอร์ม-ifra)
 
 
@@ -67,10 +67,10 @@ sidebar_label: เริ่มต้นใช้งาน
 
 ## การเขียนโค้ดบน Arduino IDE
 
-เมื่อลงทะเบียนอุปกรณ์สำเร็จ ขั้นตอนต่อไปคือการเขียนโค้ดบน Arduino IDE และเบิร์นลงบอร์ด ESP32 เพื่อให้ ESP32 นั้นส่งข้อมูลส่งข้อมูลมายังแพลตฟอร์ม และแพลตฟอร์มสามารถควบคุม LED บน ESP32 
+เมื่อลงทะเบียนอุปกรณ์สำเร็จ ขั้นตอนต่อไปคือการเขียนโค้ดบน Arduino IDE และเบิร์นลงบอร์ด ESP32 เพื่อให้ ESP32 นั้นส่งข้อมูลไปยังแพลตฟอร์ม และแพลตฟอร์มสามารถควบคุม LED บน ESP32 
 
 ### ขั้นตอนการเขียนโค้ด
-1. Download library ของแพลตฟอร์ม IFRA จาก [ifra-cpp-sdk](https://github.com/ifraiot/ifra-cpp-sdk) ไว้ที่ file library ของ Arduino IDE และ Copy โค้ดต่อไปนี้ลงใน Arduino IDE
+1. Download library ของแพลตฟอร์ม IFRA จาก [ifra-cpp-sdk](https://github.com/ifraiot/ifra-cpp-sdk) ไว้ที่ file library ของ Arduino IDE และคัดลอกโค้ดต่อไปนี้ลงใน Arduino IDE
 
 ```c++
 #include "iFraSDK.h"
@@ -163,7 +163,7 @@ void loop() {
 <img src="/img/setting_add_dashboard.png">
 </p>
 
-3. เลือก Things, Devices และ Measurements ที่ตั้งค่าแล้วในหัวข้อ "[การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)"
+3. เลือก Things, Devices และ Measurements ที่ตั้งค่าในหัวข้อ [การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)
 
 <p class="frame">
 <img src="/img/add_widget.png">
