@@ -26,6 +26,6 @@ sidebar_label: Devices
 ![alt-text](/img/device6.png)
 
 
-หน้า MQTT ADAPTER เพื่อที่จะได้นำ Channel,Device Key และ Device Secret 
+โดยหน้า MQTT ADAPTER จะแสดงข้อมูล Channel,Topic,MQTT Server,Device Key และ Device Secret เพื่อที่จะนำข้อมูลเหล่านี้มาใช้ในการเชื่อมต่อ อุปกรณ์กับแพลตฟอร์มไอฟรา
 ![alt-text](/img/device4.png)
 
