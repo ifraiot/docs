@@ -74,7 +74,7 @@ h6,
     color: #ffffff !important;
 }
 .background-sky {
-    background-color: #1976d2;
+    background-color: #022144;
     /* background: linear-gradient(145deg,#0d47a1,#42a5f5); */
 }
 .hero {
@@ -91,7 +91,7 @@ h6,
 }
 
 .fixedHeaderContainer{
-    background: #1976d2;
+    background: #022144;
 }
 
 .button.hero-cta {
@@ -106,8 +106,8 @@ h6,
 }
 
 .hero-cta:hover {
-    background: #2069bf !important;
-    border: 1px solid #2069bf !important;  
+    background: #1f4b7a !important;
+    border: 1px solid #1f4b7a !important;  
 }
 
 .nav-footer{
@@ -156,8 +156,8 @@ h6,
 
 
 .bnt-get-start a:hover{
-    background: #ffffff;
-    border: 1px solid #ffffff;
+    background: #ffffff !important;
+    border: 1px solid #ffffff !important;
     box-shadow: 0 8px 8px rgba(10,16,20,.24), 0 0 8px rgba(10,16,20,.12) !important;
 }
 
@@ -167,7 +167,7 @@ h6,
 }
 
 .color-blue{
-    color: #1976d2!important;
+    color: #1f4b7a!important;
 }
 .navigationSlider .slidingNav ul li > a:hover,
 .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
@@ -175,7 +175,7 @@ h6,
 }
 
 .navigationSlider .slidingNav ul {
-    background: #1975d2;
+    background: #022144;
 }
 
 .imageAlignTop .blockImage {
@@ -192,7 +192,7 @@ h6,
 .onPageNav .toc-headings > li > a.hover,
 .toc .toggleNav ul li.navListItemActive a {
     font-weight: 600;
-    color: #1975d2!important;
+    color: #1f4b7a!important;
 }
 
 
@@ -221,9 +221,9 @@ p a{
 }
 
  .button:hover {
-    background: #1976d2;
+    background: #1f4b7a;
     color: #fff!important;
-    border: 1px solid #1976d2;
+    border: 1px solid #1f4b7a;
 } 
 
 
