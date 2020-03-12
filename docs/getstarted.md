@@ -7,17 +7,17 @@ sidebar_label: เริ่มต้นใช้งาน
 ยินดีต้อนรับสู่แพลตฟอร์ม IFRA 
 
 
-ในเอกสารนี้เหมาะสำหรับผู้ใช้งานที่ยังไม่มีพื้นฐานสำหรับการใช้งานแพลตฟอร์ม IoT โดยในเอกสารนี้จะสอนการควบคุม เปิด-ปิด LED ใน ESP32 ผ่านแพลตฟอร์ม เพื่อให้ผู้ใช้งานเข้าใจการทำงานเบื้องต้นของแพลตฟอร์ม IFRA 
+ในเอกสารนี้เหมาะสำหรับผู้ใช้งานที่ไม่มีพื้นฐานสำหรับการใช้งานแพลตฟอร์ม IoT โดยในเอกสารนี้จะสอนการควบคุม เปิด-ปิด LED ใน ESP32 ผ่านแพลตฟอร์ม เพื่อให้ผู้ใช้งานเข้าใจการทำงานเบื้องต้นของแพลตฟอร์ม IFRA 
 
 * [การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)
-* [การเขียน code บน IDE Arduino](#การเขียน-code-บน-ide-arduino)
+* [การเขียนโค้ดใน IDE Arduino](#การเขียนโค้ดบน-arduino-ide)
 * [การสร้าง Dashboard ในแพลตฟอร์ม IFRA](#การสร้าง-dashboard-ในแพลตฟอร์ม-ifra)
 
 
 ## การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA   
 
-เริ่มต้นผู้ใช้งานต้องสมัครสมาชิกผ่าน [แพลตฟอร์ม IFRA](ttps://ws.ifra.io/) และเลือกแพ็กเกจสำหรับการเริ่มต้นใช้งาน 
-> สำหรับแพ็กเกจนั้น ในแพลตฟอร์มจะมีแพ็กเกจฟรีสำหรับการทดลองใช้งาน โดยสามารถดูรายละเอียดแพ็กเกจได้ที่    [รายละเอียดแพ็กเกจ](ttps://ws.ifra.io/)
+เริ่มต้นผู้ใช้งานต้องลงทะเบียนผ่าน [https://ws.ifra.io/](https://ws.ifra.io/) และเลือกแพ็กเกจสำหรับการเริ่มต้นใช้งาน 
+> สำหรับแพ็กเกจในแพลตฟอร์มจะมีแพ็กเกจฟรีสำหรับการทดลองใช้งาน โดยสามารถดูรายละเอียดแพ็กเกจได้ที่    [รายละเอียดแพ็กเกจ](https://ws.ifra.io/plans)
 
 เมื่อเข้ามายังหน้าแรกของแพลตฟอร์มจะเป็นดังนี้
 <p class="frame">
@@ -32,7 +32,7 @@ sidebar_label: เริ่มต้นใช้งาน
 <img src="/img/thing_home.png">
 </p>
 
-โดยใส่ชื่อและแท็ก (หลังจากพิมพ์แท็กลงไป ต้องกด Enter) ส่วนรูปภาพสามารถเลือกใส่ได้ และกด Save
+โดยใส่ชื่อและแท็ก (หลังจากพิมพ์แท็กต้องกด Enter) ส่วนรูปภาพสามารถเลือกใส่ได้ และกด Save
 
 2. ในหน้า Thing มีการเพิ่ม 2 ส่วนคือ Devices และ Measurement 
 <p class="frame">
@@ -48,29 +48,29 @@ sidebar_label: เริ่มต้นใช้งาน
 
 หลังจากทำการเพิ่ม Devices เสร็จเรียบร้อย ให้ทำการกดเพิ่ม Measurement<img src="/img/add_Measurement.png" class="imp-in-p">
 โดยเลือก 
-* Type เป็น Actuator 
-* Name Measurement เป็น "switch" 
-* Unit เป็น "-" 
+* Type = Actuator 
+* Name Measurement = "switch" 
+* Unit = "-" 
 
 <p class="frame">
 <img src="/img/add_Measurement_popup.png">
 </p>
 
 
-หลังจาก Add Measurement เรียบร้อยจะเป็นดังนี้
+หลังจาก Add Measurement สำเร็จจะเป็นดังนี้
 
 <p class="frame">
 <img src="/img/thing_success.png">
 </p>
 
-เป็นการลงทะเบียนอุปกรณ์สำเร็จ
+การลงทะเบียนอุปกรณ์สำเร็จ!
 
 ## การเขียนโค้ดบน Arduino IDE
 
-เมื่อลงทะเบียนอุปกรณ์สำเร็จ ขั้นตอนต่อไปคือการเขียนโค้ดบน Arduino IDE และเบิร์นลงบอร์ด ESP32 เพื่อให้ ESP32 นั้นส่งข้อมูลส่งข้อมูลมายังแพลตฟอร์ม และแพลตฟอร์มสามารถควบคุม LED บน ESP32 
+เมื่อลงทะเบียนอุปกรณ์สำเร็จ ขั้นตอนต่อไปคือการเขียนโค้ดบน Arduino IDE และเบิร์นลงบอร์ด ESP32 เพื่อให้ ESP32 นั้นส่งข้อมูลไปยังแพลตฟอร์ม และแพลตฟอร์มสามารถควบคุม LED บน ESP32 
 
 ### ขั้นตอนการเขียนโค้ด
-1. Download library ของแพลตฟอร์ม IFRA จาก [ifra-cpp-sdk](https://github.com/ifraiot/ifra-cpp-sdk) ไว้ที่ file library ของ Arduino IDE และ Copy โค้ดต่อไปนี้ลงใน Arduino IDE
+1. Download library ของแพลตฟอร์ม IFRA จาก [ifra-cpp-sdk](https://github.com/ifraiot/ifra-cpp-sdk) ไว้ที่ file library ของ Arduino IDE และคัดลอกโค้ดต่อไปนี้ลงใน Arduino IDE
 
 ```c++
 #include "iFraSDK.h"
@@ -125,7 +125,7 @@ void loop() {
 <img src="/img/setting_thing_device.png">
 </p>
 
-* เลือกตั้งค่า (จากรูปด้านขวาในกรอบสีแดง)
+* เลือกการตั้งค่า (จากรูปในกรอบสีแดง)
 
 <p class="frame">
 <img src="/img/add_device_success.png">
@@ -142,9 +142,9 @@ void loop() {
 <img src="/img/name_measu.png">
 </p>
 
-ส่วน `WIFI_SSID` และ `WIFI_PASSWORD` ตั้งค่าเป็น User และ Password ของ Wifi ตามลำดับ เมื่อทำการใส่ค่าที่ คัดลอกจากแพลตฟอร์มลงในโค้ดเสร็จเรียบร้อยแล้วให้ทำการเบิร์นลงบอร์ด ESP32
+`WIFI_SSID` และ `WIFI_PASSWORD` ตั้งค่าเป็น User และ Password ของ Wifi ตามลำดับ เมื่อทำการใส่ค่าที่ คัดลอกจากแพลตฟอร์มลงในโค้ดเรียบร้อยแล้วให้ทำการเบิร์นลงบอร์ด ESP32
 
-เป็นการเขียนโค้ดและเบิร์นลงบอร์ด ESP32 สำเร็จ
+การเขียนโค้ดและเบิร์นลงบอร์ด ESP32 สำเร็จ!
 
 
 ## การสร้าง Dashboard ในแพลตฟอร์ม IFRA 
@@ -157,13 +157,13 @@ void loop() {
 <img src="/img/dashboard_home_success.png">
 </p>
 
-2. เพิ่ม Widget โดยกด Add Widget ตั้งชื่อ Widget เลือกWidget เป็น Switch ดังรูป และกด Next
+2. เพิ่ม Widget โดยกด Add Widget ตั้งชื่อ Widget เลือก Widget เป็น Switch ดังรูป และกด Next
 
 <p class="frame">
 <img src="/img/setting_add_dashboard.png">
 </p>
 
-3. เลือก Things, Devices และ Measurements ที่ตั้งค่าแล้วในหัวข้อ "[การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)"
+3. เลือก Things, Devices และ Measurements ที่ตั้งค่าในหัวข้อ [การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม IFRA](#การลงทะเบียนอุปกรณ์ภายในแพลตฟอร์ม-ifra)
 
 <p class="frame">
 <img src="/img/add_widget.png">
