@@ -3,12 +3,22 @@ id: chart_widget
 title: Chart Widget
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+คือ แผนภูมิภาพแสดงค่าสถิติของข้อมูล ที่ส่งมาจากอุปกรณ์ 
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+# วิธีการสร้างแผนภูมิภาพ
+ สามารถสร้างแผนภูมิภาพโดยการกดที่ปุ่ม +Dashboard 
+![alt-text](/img/dashboard-d1.png)
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+ตั้งชื่อสำหรับ ชุดแผนภูมิ 
+![alt-text](/img/dashboard-d2.png)
+หลังจากตั้งชื่อ จะแสดงหน้ารวมของแผนภูมิภาพ สามารถเพิ่มแผนภูมิภาพชนิดต่างๆ โดยกดที่ปุ่ม +Widget 
+![alt-text](/img/dashboard-d3.png)
+หลังจากกดปุ่ม +Widget จะแสดงหน้าแผนภูมิภาพให้เลือกหลายแบบ โดยสามารถเลือกแผนภูมิ ได้ครั้งละ 1 แบบพร้อมกับตั้งชื่อแผนภูมิ แล้วกดปุ่ม Next
+![alt-text](/img/dashboard-d4.png)
+หลังจากกดปุ่ม Next ให้คลิกเลือก Things,Devices,Measurements ที่ต้องการแสดงในแผนภูมิภาพ หลังกดเลือกให้ กดปุ่ม Add Measurement เพื่อที่จะนำข้อมูลที่เลือกไปแสดงในแผนภูมิภาพ
+![alt-text](/img/dashboard-d5.png)
+หลังจากกด Add Measurement ให้กดปุ่ม FINISH เพื่อเสร็จสิ้นกระบวนการทั้งหมด
+![alt-text](/img/dashboard-d6.png)
+หลังจากเพิ่มแผนภูมิภาพ จะมีแผนภูมิภาพแสดงในหน้า Dashboard เราสามารถเพิ่มตามที่เราต้องการ
+![alt-text](/img/dashboard-d8.png)
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
