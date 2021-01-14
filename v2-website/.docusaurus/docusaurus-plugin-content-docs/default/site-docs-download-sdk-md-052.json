@@ -1,0 +1,18 @@
+{
+  "unversionedId": "Download/sdk",
+  "id": "Download/sdk",
+  "isDocsHomePage": false,
+  "title": "SDK",
+  "description": "Python",
+  "source": "@site/../docs/Download/sdk.md",
+  "slug": "/Download/sdk",
+  "permalink": "/docs/Download/sdk",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Control Widget",
+    "permalink": "/docs/Dashboard/control_widget"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Overview/overviewde",
+  "id": "Overview/overviewde",
+  "isDocsHomePage": false,
+  "title": "สถาปัตยกรรมของระบบ",
+  "description": "this is another document",
+  "source": "@site/../docs/Overview/overviewde.md",
+  "slug": "/Overview/overviewde",
+  "permalink": "/docs/Overview/overviewde",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "สถาปัตยกรรมของระบบ",
+  "sidebar": "docs",
+  "previous": {
+    "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
+    "permalink": "/docs/getStarted"
+  },
+  "next": {
+    "title": "Thing",
+    "permalink": "/docs/Device_management/thing"
+  }
+}

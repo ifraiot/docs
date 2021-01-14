@@ -1,0 +1,448 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/shinji/project/document-ifra/docs/website/sidebars.json",
+          "docsDirPath": "/Users/shinji/project/document-ifra/docs/docs",
+          "docsDirPathLocalized": "/Users/shinji/project/document-ifra/docs/v2-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "overview",
+          "sidebars": {
+            "docs": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "IFRA IIOT",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getStarted"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "ภาพรวม",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Overview/overviewde"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Device Management",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Device_management/thing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Device_management/devices"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Device_management/measurement"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Real-Time Dashboard",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Dashboard/chart_widget"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Dashboard/control_widget"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Download",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Download/sdk"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/Dashboard/chart_widget": "docs",
+            "/docs/Dashboard/control_widget": "docs",
+            "/docs/Device_management/devices": "docs",
+            "/docs/Device_management/measurement": "docs",
+            "/docs/Device_management/thing": "docs",
+            "/docs/Download/sdk": "docs",
+            "/docs/getStarted": "docs",
+            "/docs/": "docs",
+            "/docs/Overview/overviewde": "docs"
+          },
+          "docs": [
+            {
+              "unversionedId": "Dashboard/chart_widget",
+              "id": "Dashboard/chart_widget",
+              "isDocsHomePage": false,
+              "title": "Chart Widget",
+              "description": "คือ แผนภูมิภาพแสดงค่าสถิติของข้อมูล ที่ส่งมาจากอุปกรณ์",
+              "source": "@site/../docs/Dashboard/chart_widget.md",
+              "slug": "/Dashboard/chart_widget",
+              "permalink": "/docs/Dashboard/chart_widget",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar": "docs",
+              "previous": {
+                "title": "Measurement",
+                "permalink": "/docs/Device_management/measurement"
+              },
+              "next": {
+                "title": "Control Widget",
+                "permalink": "/docs/Dashboard/control_widget"
+              }
+            },
+            {
+              "unversionedId": "Dashboard/control_widget",
+              "id": "Dashboard/control_widget",
+              "isDocsHomePage": false,
+              "title": "Control Widget",
+              "description": "คือ การควบคุมอุปกรณ์ ผ่านปุ่มควบคุมในหน้า แสดงแผนภูมิภาพ โดยยกตัวอย่างปุ่มสำหรับปิดเปิดไฟ",
+              "source": "@site/../docs/Dashboard/control_widget.md",
+              "slug": "/Dashboard/control_widget",
+              "permalink": "/docs/Dashboard/control_widget",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar": "docs",
+              "previous": {
+                "title": "Chart Widget",
+                "permalink": "/docs/Dashboard/chart_widget"
+              },
+              "next": {
+                "title": "SDK",
+                "permalink": "/docs/Download/sdk"
+              }
+            },
+            {
+              "unversionedId": "Device_management/devices",
+              "id": "Device_management/devices",
+              "isDocsHomePage": false,
+              "title": "Devices",
+              "description": "คือ อุปกรณ์ที่เราต้องการเชื่อมกับ แพลตฟอร์มไอฟรา เช่น บอร์ด ESP32 ,บอร์ด Arduino",
+              "source": "@site/../docs/Device_management/devices.md",
+              "slug": "/Device_management/devices",
+              "permalink": "/docs/Device_management/devices",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "Devices",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Thing",
+                "permalink": "/docs/Device_management/thing"
+              },
+              "next": {
+                "title": "Measurement",
+                "permalink": "/docs/Device_management/measurement"
+              }
+            },
+            {
+              "unversionedId": "Device_management/measurement",
+              "id": "Device_management/measurement",
+              "isDocsHomePage": false,
+              "title": "Measurement",
+              "description": "คือการวัดเพื่อส่งค่าไปยังอุปกรณ์โดยใช้เซ็นเซอร์ อีกทั้งยังสามารถใช้ Actuator เพื่อส่งข้อมูลกลับ",
+              "source": "@site/../docs/Device_management/measurement.md",
+              "slug": "/Device_management/measurement",
+              "permalink": "/docs/Device_management/measurement",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "Measurement",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Devices",
+                "permalink": "/docs/Device_management/devices"
+              },
+              "next": {
+                "title": "Chart Widget",
+                "permalink": "/docs/Dashboard/chart_widget"
+              }
+            },
+            {
+              "unversionedId": "Device_management/thing",
+              "id": "Device_management/thing",
+              "isDocsHomePage": false,
+              "title": "Thing",
+              "description": "คือ ฟังก์ชันที่ใช้จัดการอุปกรณ์ ที่ต้องการเชื่อมต่อกับกับระบบ IFRA เช่น เครื่องจักร เครื่องมือต่างๆ เป็นต้น",
+              "source": "@site/../docs/Device_management/thing.md",
+              "slug": "/Device_management/thing",
+              "permalink": "/docs/Device_management/thing",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "Thing",
+              "sidebar": "docs",
+              "previous": {
+                "title": "สถาปัตยกรรมของระบบ",
+                "permalink": "/docs/Overview/overviewde"
+              },
+              "next": {
+                "title": "Devices",
+                "permalink": "/docs/Device_management/devices"
+              }
+            },
+            {
+              "unversionedId": "Download/sdk",
+              "id": "Download/sdk",
+              "isDocsHomePage": false,
+              "title": "SDK",
+              "description": "Python",
+              "source": "@site/../docs/Download/sdk.md",
+              "slug": "/Download/sdk",
+              "permalink": "/docs/Download/sdk",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar": "docs",
+              "previous": {
+                "title": "Control Widget",
+                "permalink": "/docs/Dashboard/control_widget"
+              }
+            },
+            {
+              "unversionedId": "getStarted",
+              "id": "getStarted",
+              "isDocsHomePage": false,
+              "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
+              "description": "ยินดีต้อนรับสู่แพลตฟอร์ม IFRA IoT",
+              "source": "@site/../docs/getstarted.md",
+              "slug": "/getStarted",
+              "permalink": "/docs/getStarted",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "เริ่มต้นใช้งาน",
+              "sidebar": "docs",
+              "previous": {
+                "title": "IFRA IIoT",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "สถาปัตยกรรมของระบบ",
+                "permalink": "/docs/Overview/overviewde"
+              }
+            },
+            {
+              "unversionedId": "overview",
+              "id": "overview",
+              "isDocsHomePage": true,
+              "title": "IFRA IIoT",
+              "description": "IFRA IIoT เป็นแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม ที่ทำหน้าในการจัดการอุปกรณ์ IoT ให้สามารถทำงานได้อย่างมีประสิทธิภาพสูงสุด เพื่อนำข้อมูลที่มีค่าในสายการผลิตไปวิเคราะห์เพื่อทำการตัดสินใจได้แบบ Real-Time เพื่อลดเวลาที่ไม่จำเป็นเพื่อเพิ่มผลผลิตและลดของเสียที่จะเกิดขึ้นในสายการผลิต โดยแพลตฟอร์มถูกพัฒนาขึ้นเพื่อแก้ปัญหา ลดค่าใช้จ่ายในการพัฒนา ,ขาดบุคลากรที่เชี่ยวชาญ ,ขาดแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม",
+              "source": "@site/../docs/overview.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "IFRA คืออะไร",
+              "sidebar": "docs",
+              "next": {
+                "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
+                "permalink": "/docs/getStarted"
+              }
+            },
+            {
+              "unversionedId": "Overview/overviewde",
+              "id": "Overview/overviewde",
+              "isDocsHomePage": false,
+              "title": "สถาปัตยกรรมของระบบ",
+              "description": "this is another document",
+              "source": "@site/../docs/Overview/overviewde.md",
+              "slug": "/Overview/overviewde",
+              "permalink": "/docs/Overview/overviewde",
+              "version": "current",
+              "lastUpdatedBy": "Author",
+              "lastUpdatedAt": 1539502055,
+              "sidebar_label": "สถาปัตยกรรมของระบบ",
+              "sidebar": "docs",
+              "previous": {
+                "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
+                "permalink": "/docs/getStarted"
+              },
+              "next": {
+                "title": "Thing",
+                "permalink": "/docs/Device_management/thing"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "New Version 1.0.0",
+          "metadata": {
+            "permalink": "/blog/2017/10/24/new-version-1.0.0",
+            "source": "@site/blog/2017-10-24-new-version-1.0.0.md",
+            "description": "This blog post will test file name parsing issues when periods are present.",
+            "date": "2017-10-24T00:00:00.000Z",
+            "tags": [],
+            "title": "New Version 1.0.0",
+            "readingTime": 0.065,
+            "truncated": false,
+            "nextItem": {
+              "title": "Adding RSS Support",
+              "permalink": "/blog/2017/09/26/adding-rss"
+            }
+          }
+        },
+        {
+          "id": "Adding RSS Support",
+          "metadata": {
+            "permalink": "/blog/2017/09/26/adding-rss",
+            "source": "@site/blog/2017-09-26-adding-rss.md",
+            "description": "This is a test post.",
+            "date": "2017-09-26T00:00:00.000Z",
+            "tags": [],
+            "title": "Adding RSS Support",
+            "readingTime": 0.055,
+            "truncated": false,
+            "prevItem": {
+              "title": "New Version 1.0.0",
+              "permalink": "/blog/2017/10/24/new-version-1.0.0"
+            },
+            "nextItem": {
+              "title": "Adding RSS Support - RSS Truncation Test",
+              "permalink": "/blog/2017/09/25/testing-rss"
+            }
+          }
+        },
+        {
+          "id": "Adding RSS Support - RSS Truncation Test",
+          "metadata": {
+            "permalink": "/blog/2017/09/25/testing-rss",
+            "source": "@site/blog/2017-09-25-testing-rss.md",
+            "description": "1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
+            "date": "2017-09-25T00:00:00.000Z",
+            "tags": [],
+            "title": "Adding RSS Support - RSS Truncation Test",
+            "readingTime": 0.065,
+            "truncated": true,
+            "prevItem": {
+              "title": "Adding RSS Support",
+              "permalink": "/blog/2017/09/26/adding-rss"
+            },
+            "nextItem": {
+              "title": "New Blog Post",
+              "permalink": "/blog/2017/04/10/blog-post-two"
+            }
+          }
+        },
+        {
+          "id": "New Blog Post",
+          "metadata": {
+            "permalink": "/blog/2017/04/10/blog-post-two",
+            "source": "@site/blog/2017-04-10-blog-post-two.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.",
+            "date": "2017-04-10T00:00:00.000Z",
+            "tags": [],
+            "title": "New Blog Post",
+            "readingTime": 2.31,
+            "truncated": true,
+            "prevItem": {
+              "title": "Adding RSS Support - RSS Truncation Test",
+              "permalink": "/blog/2017/09/25/testing-rss"
+            },
+            "nextItem": {
+              "title": "Blog Title",
+              "permalink": "/blog/2016/03/11/blog-post"
+            }
+          }
+        },
+        {
+          "id": "Blog Title",
+          "metadata": {
+            "permalink": "/blog/2016/03/11/blog-post",
+            "source": "@site/blog/2016-03-11-blog-post.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.",
+            "date": "2016-03-11T00:00:00.000Z",
+            "tags": [],
+            "title": "Blog Title",
+            "readingTime": 2.31,
+            "truncated": true,
+            "prevItem": {
+              "title": "New Blog Post",
+              "permalink": "/blog/2017/04/10/blog-post-two"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 5,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "New Version 1.0.0",
+            "Adding RSS Support",
+            "Adding RSS Support - RSS Truncation Test",
+            "New Blog Post",
+            "Blog Title"
+          ]
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-theme-search-algolia": {
+    "default": null
+  }
+}

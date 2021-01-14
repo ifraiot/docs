@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Dashboard/chart_widget",
+  "id": "Dashboard/chart_widget",
+  "isDocsHomePage": false,
+  "title": "Chart Widget",
+  "description": "คือ แผนภูมิภาพแสดงค่าสถิติของข้อมูล ที่ส่งมาจากอุปกรณ์",
+  "source": "@site/../docs/Dashboard/chart_widget.md",
+  "slug": "/Dashboard/chart_widget",
+  "permalink": "/docs/Dashboard/chart_widget",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Measurement",
+    "permalink": "/docs/Device_management/measurement"
+  },
+  "next": {
+    "title": "Control Widget",
+    "permalink": "/docs/Dashboard/control_widget"
+  }
+}

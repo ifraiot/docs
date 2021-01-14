@@ -1,0 +1,101 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "isLast": true,
+  "docsSidebars": {
+    "docs": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "IFRA IIOT",
+        "items": [
+          {
+            "type": "link",
+            "label": "IFRA คืออะไร",
+            "href": "/docs/"
+          },
+          {
+            "type": "link",
+            "label": "เริ่มต้นใช้งาน",
+            "href": "/docs/getStarted"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "ภาพรวม",
+        "items": [
+          {
+            "type": "link",
+            "label": "สถาปัตยกรรมของระบบ",
+            "href": "/docs/Overview/overviewde"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Device Management",
+        "items": [
+          {
+            "type": "link",
+            "label": "Thing",
+            "href": "/docs/Device_management/thing"
+          },
+          {
+            "type": "link",
+            "label": "Devices",
+            "href": "/docs/Device_management/devices"
+          },
+          {
+            "type": "link",
+            "label": "Measurement",
+            "href": "/docs/Device_management/measurement"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Real-Time Dashboard",
+        "items": [
+          {
+            "type": "link",
+            "label": "Chart Widget",
+            "href": "/docs/Dashboard/chart_widget"
+          },
+          {
+            "type": "link",
+            "label": "Control Widget",
+            "href": "/docs/Dashboard/control_widget"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Download",
+        "items": [
+          {
+            "type": "link",
+            "label": "SDK",
+            "href": "/docs/Download/sdk"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/Dashboard/chart_widget": "docs",
+    "/docs/Dashboard/control_widget": "docs",
+    "/docs/Device_management/devices": "docs",
+    "/docs/Device_management/measurement": "docs",
+    "/docs/Device_management/thing": "docs",
+    "/docs/Download/sdk": "docs",
+    "/docs/getStarted": "docs",
+    "/docs/": "docs",
+    "/docs/Overview/overviewde": "docs"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "Dashboard/chart_widget",
+              "path": "/docs/Dashboard/chart_widget",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Dashboard/control_widget",
+              "path": "/docs/Dashboard/control_widget",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Device_management/devices",
+              "path": "/docs/Device_management/devices",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Device_management/measurement",
+              "path": "/docs/Device_management/measurement",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Device_management/thing",
+              "path": "/docs/Device_management/thing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Download/sdk",
+              "path": "/docs/Download/sdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getStarted",
+              "path": "/docs/getStarted",
+              "sidebar": "docs"
+            },
+            {
+              "id": "overview",
+              "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Overview/overviewde",
+              "path": "/docs/Overview/overviewde",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

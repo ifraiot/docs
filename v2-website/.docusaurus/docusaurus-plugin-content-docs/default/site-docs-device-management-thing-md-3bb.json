@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Device_management/thing",
+  "id": "Device_management/thing",
+  "isDocsHomePage": false,
+  "title": "Thing",
+  "description": "คือ ฟังก์ชันที่ใช้จัดการอุปกรณ์ ที่ต้องการเชื่อมต่อกับกับระบบ IFRA เช่น เครื่องจักร เครื่องมือต่างๆ เป็นต้น",
+  "source": "@site/../docs/Device_management/thing.md",
+  "slug": "/Device_management/thing",
+  "permalink": "/docs/Device_management/thing",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Thing",
+  "sidebar": "docs",
+  "previous": {
+    "title": "สถาปัตยกรรมของระบบ",
+    "permalink": "/docs/Overview/overviewde"
+  },
+  "next": {
+    "title": "Devices",
+    "permalink": "/docs/Device_management/devices"
+  }
+}

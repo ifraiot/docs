@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Dashboard/control_widget",
+  "id": "Dashboard/control_widget",
+  "isDocsHomePage": false,
+  "title": "Control Widget",
+  "description": "คือ การควบคุมอุปกรณ์ ผ่านปุ่มควบคุมในหน้า แสดงแผนภูมิภาพ โดยยกตัวอย่างปุ่มสำหรับปิดเปิดไฟ",
+  "source": "@site/../docs/Dashboard/control_widget.md",
+  "slug": "/Dashboard/control_widget",
+  "permalink": "/docs/Dashboard/control_widget",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Chart Widget",
+    "permalink": "/docs/Dashboard/chart_widget"
+  },
+  "next": {
+    "title": "SDK",
+    "permalink": "/docs/Download/sdk"
+  }
+}

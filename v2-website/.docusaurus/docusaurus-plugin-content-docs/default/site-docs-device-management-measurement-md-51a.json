@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Device_management/measurement",
+  "id": "Device_management/measurement",
+  "isDocsHomePage": false,
+  "title": "Measurement",
+  "description": "คือการวัดเพื่อส่งค่าไปยังอุปกรณ์โดยใช้เซ็นเซอร์ อีกทั้งยังสามารถใช้ Actuator เพื่อส่งข้อมูลกลับ",
+  "source": "@site/../docs/Device_management/measurement.md",
+  "slug": "/Device_management/measurement",
+  "permalink": "/docs/Device_management/measurement",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Measurement",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Devices",
+    "permalink": "/docs/Device_management/devices"
+  },
+  "next": {
+    "title": "Chart Widget",
+    "permalink": "/docs/Dashboard/chart_widget"
+  }
+}

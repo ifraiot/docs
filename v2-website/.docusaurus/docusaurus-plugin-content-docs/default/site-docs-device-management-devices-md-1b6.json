@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Device_management/devices",
+  "id": "Device_management/devices",
+  "isDocsHomePage": false,
+  "title": "Devices",
+  "description": "คือ อุปกรณ์ที่เราต้องการเชื่อมกับ แพลตฟอร์มไอฟรา เช่น บอร์ด ESP32 ,บอร์ด Arduino",
+  "source": "@site/../docs/Device_management/devices.md",
+  "slug": "/Device_management/devices",
+  "permalink": "/docs/Device_management/devices",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Devices",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Thing",
+    "permalink": "/docs/Device_management/thing"
+  },
+  "next": {
+    "title": "Measurement",
+    "permalink": "/docs/Device_management/measurement"
+  }
+}

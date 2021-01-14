@@ -80,8 +80,7 @@ class Body extends React.Component {
       <Container
       padding={[ 'top']}
       className='TextHeader'>
-       <h1 class="color-blue">การใช้งาน IFRA IIoT</h1>
-       <h3>เริ่มต้นใช้งานกับแพลตฟอร์ม IFRA IIoT</h3>
+       <h2 class="color-blue">การใช้งาน IFRA IIoT</h2>
        <p  style={{textIndent: '50px'}}>IFRA IIoT เป็นแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม ที่จะช่วยให้โรงงานสามารถนำ IoT มาใช้ใภายในโรงงาน
        ได้อย่างมีประสิทธิภาพสูงสุด โดยแพลตฟอร์มนั้นถูกออกแบบให้สามารถใช้งานง่ายต่อการสร้างวิธีการแก้ปัญหาที่เกิดขึ้นภายในโรงงาน
         </p>

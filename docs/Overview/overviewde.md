@@ -1,7 +1,7 @@
 ---
 id: overviewde
-title: สถาปัตยกรรมของระบบ
-sidebar_label: สถาปัตยกรรมของระบบ
+title: "สถาปัตยกรรมของระบบ"
+sidebar_label: "สถาปัตยกรรมของระบบ"
 ---
 
 this is another document
