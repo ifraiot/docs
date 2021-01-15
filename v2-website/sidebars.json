@@ -3,7 +3,7 @@
     "IFRA IIOT": 
     ["overview",
     "getStarted"],
-    "ภาพรวม":["Overview/overviewde"],
+    "Overview":["Overview/overviewde"],
     "Device Management":
      [
       "Device_management/thing",

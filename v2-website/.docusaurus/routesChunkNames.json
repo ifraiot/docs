@@ -3,6 +3,10 @@
     "component": "component---site-src-pages-index-jsc-4-f-f99",
     "config": "config---5-e-9-4f3"
   },
+  "/-5f1": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---f-39-267"
+  },
   "/__docusaurus/debug-3d6": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
@@ -71,6 +75,10 @@
     "component": "component---theme-blog-post-pageccc-cab",
     "sidebar": "sidebar---blog-708-79c",
     "content": "content---blog-2017-10-24-new-version-1-0-0-bbb-777"
+  },
+  "/hello-5a5": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---hello-79-f-595"
   },
   "/search-d9b": {
     "component": "component---users-shinji-project-document-ifra-docs-v-2-website-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-jsda-6-461"

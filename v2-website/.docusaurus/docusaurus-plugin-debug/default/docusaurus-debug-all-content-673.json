@@ -8,7 +8,7 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/shinji/project/document-ifra/docs/website/sidebars.json",
+          "sidebarFilePath": "/Users/shinji/project/document-ifra/docs/v2-website/sidebars.json",
           "docsDirPath": "/Users/shinji/project/document-ifra/docs/docs",
           "docsDirPathLocalized": "/Users/shinji/project/document-ifra/docs/v2-website/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "overview",
@@ -32,7 +32,7 @@
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "ภาพรวม",
+                "label": "Overview",
                 "items": [
                   {
                     "type": "doc",
@@ -258,7 +258,7 @@
               "id": "overview",
               "isDocsHomePage": true,
               "title": "IFRA IIoT",
-              "description": "IFRA IIoT เป็นแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม ที่ทำหน้าในการจัดการอุปกรณ์ IoT ให้สามารถทำงานได้อย่างมีประสิทธิภาพสูงสุด เพื่อนำข้อมูลที่มีค่าในสายการผลิตไปวิเคราะห์เพื่อทำการตัดสินใจได้แบบ Real-Time เพื่อลดเวลาที่ไม่จำเป็นเพื่อเพิ่มผลผลิตและลดของเสียที่จะเกิดขึ้นในสายการผลิต โดยแพลตฟอร์มถูกพัฒนาขึ้นเพื่อแก้ปัญหา ลดค่าใช้จ่ายในการพัฒนา ,ขาดบุคลากรที่เชี่ยวชาญ ,ขาดแพลตฟอร์มสำหรับโรงงานอุตสาหกรรม",
+              "description": "IFRA IIoT เป็นแพลตฟอร์มที่ช่วยให้นักพัฒนาด้าน Internet of Things สามารถพัฒนาแอปพลิเคชันหรือโซลูชั่นได้อย่างรวดเร็วและมีประสิทธิภาพ สามารถใช้ในอุตสาหกรรมต่างๆ มากมาย  IFRA สามารถเชื่อมต่ออุปกรณ์ ฮาร์ดแวร์ได้หลายหลายชนิด และนำข้อมูลที่ได้มาเคราะห์เพื่อทำการตัดสินใจได้แบบ Real-Time",
               "source": "@site/../docs/overview.md",
               "slug": "/",
               "permalink": "/docs/",
@@ -430,9 +430,19 @@
   "docusaurus-plugin-content-pages": {
     "default": [
       {
+        "type": "mdx",
+        "permalink": "/hello",
+        "source": "@site/src/pages/hello.md"
+      },
+      {
         "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.md"
       }
     ]
   },

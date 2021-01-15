@@ -8,6 +8,11 @@ export default [
   exact: true,
 },
 {
+  path: '/',
+  component: ComponentCreator('/','5f1'),
+  exact: true,
+},
+{
   path: '/__docusaurus/debug',
   component: ComponentCreator('/__docusaurus/debug','3d6'),
   exact: true,
@@ -70,6 +75,11 @@ export default [
 {
   path: '/blog/2017/10/24/new-version-1.0.0',
   component: ComponentCreator('/blog/2017/10/24/new-version-1.0.0','965'),
+  exact: true,
+},
+{
+  path: '/hello',
+  component: ComponentCreator('/hello','5a5'),
   exact: true,
 },
 {

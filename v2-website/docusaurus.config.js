@@ -3,7 +3,6 @@ module.exports={
   "tagline": "แพลตฟอร์ม ที่ช่วยให้นักพัฒนาด้าน Internet of Things สามารถพัฒนาแอปพลิเคชันหรือโซลูชั่นได้อย่างรวดเร็วและมีประสิทธิภาพ",
   "url": "/",
   "baseUrl": "/",
-  "organizationName": "facebook",
   "projectName": "ifra-doc-site",
   "scripts": [
     "https://buttons.github.io/buttons.js",
@@ -46,7 +45,7 @@ module.exports={
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
           "path": "../docs",
-          "sidebarPath": "../website/sidebars.json"
+          "sidebarPath": "./sidebars.json"
         },
         "blog": {
           "path": "blog"
@@ -59,19 +58,50 @@ module.exports={
   ],
   "plugins": [],
   "themeConfig": {
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
+     announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content:
+        'หากคุณมีคำถามหรือข้อสงสัยใด ๆ เกี่ยวกับเอกสารนี้โปรดอย่าลังเลที่จะแจ้งให้เราทราบ <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/2733756676717051">แจ้งปัญหา</a>',
+      backgroundColor: '#212121', // Defaults to `#fff`.
+      textColor: '#fff', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
+    "colorMode": {
+      "defaultMode": 'light',
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true,
+      "switchConfig": {
+        "darkIcon": '🌙',
+        "lightIcon": '\u2600',
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        "darkIconStyle": {
+          "marginLeft": '2px',
+        },
+        "lightIconStyle": {
+          "marginLeft": '1px',
+        }
+      }
+    },
     "navbar": {
       "title": "IFRA IIoT",
       "logo": {
-        "src": "img/ifra-logo.png"
+        "src": "img/logo-ifra.svg"
       },
       "items": [
+        
         {
-          "to": "docs/",
+          "to": "docs",
+          "activeBasePath": 'docs',
           "label": "เอกสาร",
           "position": "left"
         },
         {
-          "href": "https://blog.ifra.io/",
+          "href": "https://ifra.io/blog/",
           "label": "บล็อก",
           "position": "left"
         },
@@ -82,13 +112,10 @@ module.exports={
         }
       ]
     },
-    "image": "img/undraw_online.svg",
     "footer": {
       "links": [],
       "copyright": "Copyright © 2021 IFRA IIoT Platform",
-      "logo": {
-        "src": "img/icon.png"
-      }
+
     },
     "algolia": {
       "apiKey": "25626fae796133dc1e734c6bcaaeac3c",

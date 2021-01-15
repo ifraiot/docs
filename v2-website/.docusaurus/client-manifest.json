@@ -1,0 +1,567 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1": [
+      0,
+      2,
+      3,
+      8,
+      21,
+      25,
+      27,
+      34,
+      35,
+      36,
+      39,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      3,
+      21,
+      25,
+      27,
+      34,
+      35,
+      36,
+      39,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      2,
+      21,
+      27,
+      3
+    ],
+    "./styles.css": [
+      1,
+      2,
+      3,
+      8,
+      21,
+      25,
+      27,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      39,
+      0
+    ],
+    "@site/blog/2016-03-11-blog-post.md?truncated=true": [
+      4
+    ],
+    "@site/../docs/overview.md": [
+      5
+    ],
+    "@site/../docs/Download/sdk.md": [
+      6
+    ],
+    "@site/blog/2017-10-24-new-version-1.0.0.md?truncated=true": [
+      7
+    ],
+    "@theme/DocItem": [
+      0,
+      1,
+      8
+    ],
+    "@site/../docs/Device_management/devices.md": [
+      9
+    ],
+    "~blog/default/http-docs-ifra-io-blog-847.json": [
+      10
+    ],
+    "@site/blog/2017-04-10-blog-post-two.md?truncated=true": [
+      11
+    ],
+    "@site/../docs/Device_management/thing.md": [
+      12
+    ],
+    "@site/blog/2017-09-25-testing-rss.md": [
+      13
+    ],
+    "@site/blog/2017-09-26-adding-rss.md?truncated=true": [
+      14
+    ],
+    "@site/../docs/Device_management/measurement.md": [
+      15
+    ],
+    "/Users/shinji/project/document-ifra/docs/v2-website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json": [
+      16
+    ],
+    "@site/../docs/getstarted.md": [
+      17
+    ],
+    "@site/src/pages/hello.md": [
+      18
+    ],
+    "~docs/default/version-current-metadata-prop-751.json": [
+      19
+    ],
+    "@site/../docs/Overview/overviewde.md": [
+      20
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      2,
+      3,
+      21
+    ],
+    "@site/blog/2017-09-26-adding-rss.md": [
+      22
+    ],
+    "@site/blog/2017-10-24-new-version-1.0.0.md": [
+      23
+    ],
+    "@site/blog/2016-03-11-blog-post.md": [
+      24
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      1,
+      2,
+      25
+    ],
+    "@site/blog/2017-09-25-testing-rss.md?truncated=true": [
+      26
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      2,
+      3,
+      27
+    ],
+    "@site/../docs/Dashboard/chart_widget.md": [
+      28
+    ],
+    "@site/blog/2017-04-10-blog-post-two.md": [
+      29
+    ],
+    "@site/../docs/Dashboard/control_widget.md": [
+      30
+    ],
+    "@site/src/pages/index.md": [
+      31
+    ],
+    "@generated/docusaurus.config": [
+      0,
+      33,
+      32
+    ],
+    "main": [
+      0,
+      33,
+      32
+    ],
+    "runtime~main": [
+      0,
+      32,
+      33
+    ],
+    "/Users/shinji/project/document-ifra/docs/v2-website/node_modules/@docusaurus/theme-search-algolia/src/theme/SearchPage/index.js": [
+      0,
+      1,
+      2,
+      34
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      2,
+      39
+    ],
+    "@theme/NotFound": [
+      0,
+      1,
+      2,
+      39
+    ],
+    "@theme/MDXPage": [
+      0,
+      1,
+      2,
+      36
+    ],
+    "@docsearch/react/modal": [
+      37
+    ],
+    "@docsearch/react/style": [
+      0,
+      38
+    ]
+  },
+  "assets": {
+    "0": {
+      "css": [
+        {
+          "file": "styles.b1446688.css",
+          "hash": "02f0ff94918c134758dd",
+          "publicPath": "http://docs.ifra.io/styles.b1446688.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "styles.f3d1b48f.js",
+          "hash": "02f0ff94918c134758dd",
+          "publicPath": "http://docs.ifra.io/styles.f3d1b48f.js"
+        }
+      ]
+    },
+    "1": {
+      "js": [
+        {
+          "file": "1.a7d61223.js",
+          "hash": "8154793edf6dbf5a96c1",
+          "publicPath": "http://docs.ifra.io/1.a7d61223.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "2.7613a3d5.js",
+          "hash": "fa7cda80dc72f1de86ac",
+          "publicPath": "http://docs.ifra.io/2.7613a3d5.js"
+        }
+      ]
+    },
+    "3": {
+      "js": [
+        {
+          "file": "3.81d51b8e.js",
+          "hash": "c3534bec35fc9af60bc1",
+          "publicPath": "http://docs.ifra.io/3.81d51b8e.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "02589645.5b916613.js",
+          "hash": "a5b227a0b955f5d3709e",
+          "publicPath": "http://docs.ifra.io/02589645.5b916613.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "0454310e.a69305ef.js",
+          "hash": "81a870855370179dd3fd",
+          "publicPath": "http://docs.ifra.io/0454310e.a69305ef.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "0523f52b.a59b7df2.js",
+          "hash": "261263570b825b0c0887",
+          "publicPath": "http://docs.ifra.io/0523f52b.a59b7df2.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "10a2e8c0.32437569.js",
+          "hash": "b0cf76fe2d09566005b3",
+          "publicPath": "http://docs.ifra.io/10a2e8c0.32437569.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "17896441.4af2cd8f.js",
+          "hash": "290de58968cc58e9e8ee",
+          "publicPath": "http://docs.ifra.io/17896441.4af2cd8f.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "1b631992.ab54c29e.js",
+          "hash": "eeb6ac7150246e9199d3",
+          "publicPath": "http://docs.ifra.io/1b631992.ab54c29e.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "2891a61a.03a922f3.js",
+          "hash": "25e55aaab9af56014444",
+          "publicPath": "http://docs.ifra.io/2891a61a.03a922f3.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "3985f3fe.f2bfe832.js",
+          "hash": "84fde21f212f5a6ec803",
+          "publicPath": "http://docs.ifra.io/3985f3fe.f2bfe832.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "3bb13574.97a69723.js",
+          "hash": "273869ef7d36a950c461",
+          "publicPath": "http://docs.ifra.io/3bb13574.97a69723.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "4d826c8d.65580d50.js",
+          "hash": "7bb8b472b6ac440df692",
+          "publicPath": "http://docs.ifra.io/4d826c8d.65580d50.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "517aa66b.f739463e.js",
+          "hash": "59fb19117ea6ad83bfb7",
+          "publicPath": "http://docs.ifra.io/517aa66b.f739463e.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "51a4d026.c9547b0b.js",
+          "hash": "84b548ce8d2fcc699dc2",
+          "publicPath": "http://docs.ifra.io/51a4d026.c9547b0b.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "70856e87.9f7c08f6.js",
+          "hash": "5f7348e90fa967ee9f69",
+          "publicPath": "http://docs.ifra.io/70856e87.9f7c08f6.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "716f46ee.96fcaac7.js",
+          "hash": "2944bbf6ed1dd8a4aaa9",
+          "publicPath": "http://docs.ifra.io/716f46ee.96fcaac7.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "79fcaa20.90412449.js",
+          "hash": "409e970545f63b5fb65b",
+          "publicPath": "http://docs.ifra.io/79fcaa20.90412449.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "935f2afb.63eb0731.js",
+          "hash": "0ab35015cda2901b1033",
+          "publicPath": "http://docs.ifra.io/935f2afb.63eb0731.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "96fbaffc.317f8c06.js",
+          "hash": "3482f1b6b4e1c9baba27",
+          "publicPath": "http://docs.ifra.io/96fbaffc.317f8c06.js"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "a6aa9e1f.14850dda.js",
+          "hash": "dc82e0c93509c562172d",
+          "publicPath": "http://docs.ifra.io/a6aa9e1f.14850dda.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "ad7efe8c.a5409cf9.js",
+          "hash": "9c4e1961f54c9c727bbc",
+          "publicPath": "http://docs.ifra.io/ad7efe8c.a5409cf9.js"
+        }
+      ]
+    },
+    "23": {
+      "js": [
+        {
+          "file": "bbb095bf.427db1d5.js",
+          "hash": "c0362f741cbbd3ef4c1c",
+          "publicPath": "http://docs.ifra.io/bbb095bf.427db1d5.js"
+        }
+      ]
+    },
+    "24": {
+      "js": [
+        {
+          "file": "bf9e930a.7c95b135.js",
+          "hash": "37d0ea77e30032b16941",
+          "publicPath": "http://docs.ifra.io/bf9e930a.7c95b135.js"
+        }
+      ]
+    },
+    "25": {
+      "js": [
+        {
+          "file": "c4f5d8e4.9376ef7e.js",
+          "hash": "61023970b15edafe3a31",
+          "publicPath": "http://docs.ifra.io/c4f5d8e4.9376ef7e.js"
+        }
+      ]
+    },
+    "26": {
+      "js": [
+        {
+          "file": "c7a22f1b.afd9d269.js",
+          "hash": "6d4ae965d00f2478f85a",
+          "publicPath": "http://docs.ifra.io/c7a22f1b.afd9d269.js"
+        }
+      ]
+    },
+    "27": {
+      "js": [
+        {
+          "file": "ccc49370.f91a9634.js",
+          "hash": "32b71b43eb19c0bbd1e3",
+          "publicPath": "http://docs.ifra.io/ccc49370.f91a9634.js"
+        }
+      ]
+    },
+    "28": {
+      "js": [
+        {
+          "file": "dc7fcf91.80e7e63c.js",
+          "hash": "634b873cc60aa91d0fc7",
+          "publicPath": "http://docs.ifra.io/dc7fcf91.80e7e63c.js"
+        }
+      ]
+    },
+    "29": {
+      "js": [
+        {
+          "file": "dfadc8c2.3e739389.js",
+          "hash": "b1ced7ce941dccc88c8f",
+          "publicPath": "http://docs.ifra.io/dfadc8c2.3e739389.js"
+        }
+      ]
+    },
+    "30": {
+      "js": [
+        {
+          "file": "e2ed8b6e.dc99c2dd.js",
+          "hash": "a0695cc6a910fff1e4d6",
+          "publicPath": "http://docs.ifra.io/e2ed8b6e.dc99c2dd.js"
+        }
+      ]
+    },
+    "31": {
+      "js": [
+        {
+          "file": "f3976560.392ad115.js",
+          "hash": "789a8d95685ba2ed0cd9",
+          "publicPath": "http://docs.ifra.io/f3976560.392ad115.js"
+        }
+      ]
+    },
+    "32": {
+      "js": [
+        {
+          "file": "main.9151f532.js",
+          "hash": "97b0d85fc9743a937905",
+          "publicPath": "http://docs.ifra.io/main.9151f532.js"
+        }
+      ]
+    },
+    "33": {
+      "js": [
+        {
+          "file": "runtime~main.b1b9c569.js",
+          "hash": "1f90600e6051d058ad5a",
+          "publicPath": "http://docs.ifra.io/runtime~main.b1b9c569.js"
+        }
+      ]
+    },
+    "34": {
+      "js": [
+        {
+          "file": "34.69cb5dd4.js",
+          "hash": "8e001ad7694f36b9bbb2",
+          "publicPath": "http://docs.ifra.io/34.69cb5dd4.js"
+        }
+      ]
+    },
+    "36": {
+      "js": [
+        {
+          "file": "36.02d174cd.js",
+          "hash": "111a100e0cfb56b9d496",
+          "publicPath": "http://docs.ifra.io/36.02d174cd.js"
+        }
+      ]
+    },
+    "37": {
+      "js": [
+        {
+          "file": "37.e4b1e1b4.js",
+          "hash": "9168796b834c6a3b330f",
+          "publicPath": "http://docs.ifra.io/37.e4b1e1b4.js"
+        }
+      ]
+    },
+    "38": {
+      "js": [
+        {
+          "file": "38.3cd3307d.js",
+          "hash": "02f743cbe543273606ff",
+          "publicPath": "http://docs.ifra.io/38.3cd3307d.js"
+        }
+      ]
+    },
+    "39": {
+      "js": [
+        {
+          "file": "35.7c0323cb.js",
+          "hash": "818eab0de28cd5fb127c",
+          "publicPath": "http://docs.ifra.io/35.7c0323cb.js"
+        },
+        {
+          "file": "39.7136927c.js",
+          "hash": "9df1a22d79c733db07b0",
+          "publicPath": "http://docs.ifra.io/39.7136927c.js"
+        }
+      ]
+    }
+  }
+}

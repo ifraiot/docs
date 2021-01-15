@@ -3,7 +3,6 @@ export default {
   "tagline": "แพลตฟอร์ม ที่ช่วยให้นักพัฒนาด้าน Internet of Things สามารถพัฒนาแอปพลิเคชันหรือโซลูชั่นได้อย่างรวดเร็วและมีประสิทธิภาพ",
   "url": "/",
   "baseUrl": "/",
-  "organizationName": "facebook",
   "projectName": "ifra-doc-site",
   "scripts": [
     "https://buttons.github.io/buttons.js",
@@ -46,7 +45,7 @@ export default {
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
           "path": "../docs",
-          "sidebarPath": "../website/sidebars.json"
+          "sidebarPath": "./sidebars.json"
         },
         "blog": {
           "path": "blog"
@@ -59,19 +58,236 @@ export default {
   ],
   "plugins": [],
   "themeConfig": {
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
+        },
+        "styles": [
+          {
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata"
+            ],
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "string",
+              "attr-value"
+            ],
+            "style": {
+              "color": "#e3116c"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "#393A34"
+            }
+          },
+          {
+            "types": [
+              "entity",
+              "url",
+              "symbol",
+              "number",
+              "boolean",
+              "variable",
+              "constant",
+              "property",
+              "regex",
+              "inserted"
+            ],
+            "style": {
+              "color": "#36acaa"
+            }
+          },
+          {
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector"
+            ],
+            "style": {
+              "color": "#00a4db"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "deleted",
+              "tag"
+            ],
+            "style": {
+              "color": "#d73a49"
+            }
+          },
+          {
+            "types": [
+              "function-variable"
+            ],
+            "style": {
+              "color": "#6f42c1"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "selector",
+              "keyword"
+            ],
+            "style": {
+              "color": "#00009f"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
+        },
+        "styles": [
+          {
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
+          },
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
+          },
+          {
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
+          },
+          {
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
+      },
+      "additionalLanguages": []
+    },
+    "announcementBar": {
+      "id": "support_us",
+      "content": "หากคุณมีคำถามหรือข้อสงสัยใด ๆ เกี่ยวกับเอกสารนี้โปรดอย่าลังเลที่จะแจ้งให้เราทราบ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.facebook.com/groups/2733756676717051\">แจ้งปัญหา</a>",
+      "backgroundColor": "#212121",
+      "textColor": "#fff",
+      "isCloseable": true
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true,
+      "switchConfig": {
+        "darkIcon": "🌙",
+        "lightIcon": "☀",
+        "darkIconStyle": {
+          "marginLeft": "2px"
+        },
+        "lightIconStyle": {
+          "marginLeft": "1px"
+        }
+      }
+    },
     "navbar": {
       "title": "IFRA IIoT",
       "logo": {
-        "src": "img/ifra-logo.png"
+        "src": "img/logo-ifra.svg"
       },
       "items": [
         {
-          "to": "docs/",
+          "to": "docs",
+          "activeBasePath": "docs",
           "label": "เอกสาร",
           "position": "left"
         },
         {
-          "href": "https://blog.ifra.io/",
+          "href": "https://ifra.io/blog/",
           "label": "บล็อก",
           "position": "left"
         },
@@ -83,13 +299,9 @@ export default {
       ],
       "hideOnScroll": false
     },
-    "image": "img/undraw_online.svg",
     "footer": {
       "links": [],
       "copyright": "Copyright © 2021 IFRA IIoT Platform",
-      "logo": {
-        "src": "img/icon.png"
-      },
       "style": "light"
     },
     "algolia": {
@@ -105,24 +317,10 @@ export default {
       "appId": "BH4D9OD16A",
       "searchParameters": {}
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
-    },
     "docs": {
       "versionPersistence": "localStorage"
     },
     "metadatas": [],
-    "prism": {
-      "additionalLanguages": []
-    },
     "hideableSidebar": false
   },
   "baseUrlIssueBanner": true,
