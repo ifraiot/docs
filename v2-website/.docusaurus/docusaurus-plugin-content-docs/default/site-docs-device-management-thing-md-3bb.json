@@ -13,8 +13,8 @@
   "sidebar_label": "Thing",
   "sidebar": "docs",
   "previous": {
-    "title": "สถาปัตยกรรมของระบบ",
-    "permalink": "/docs/Overview/overviewde"
+    "title": "System architecture",
+    "permalink": "/docs/Overview/architecture"
   },
   "next": {
     "title": "Devices",

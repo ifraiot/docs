@@ -4,12 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
   path: '/',
-  component: ComponentCreator('/','deb'),
-  exact: true,
-},
-{
-  path: '/',
-  component: ComponentCreator('/','5f1'),
+  component: ComponentCreator('/','c79'),
   exact: true,
 },
 {
@@ -78,18 +73,33 @@ export default [
   exact: true,
 },
 {
-  path: '/hello',
-  component: ComponentCreator('/hello','5a5'),
-  exact: true,
-},
-{
   path: '/search',
   component: ComponentCreator('/search','d9b'),
   exact: true,
 },
 {
+  path: '/template/CHANGELOG',
+  component: ComponentCreator('/template/CHANGELOG','0e9'),
+  exact: true,
+},
+{
+  path: '/template/dist/js/main.min',
+  component: ComponentCreator('/template/dist/js/main.min','dcd'),
+  exact: true,
+},
+{
+  path: '/template/README',
+  component: ComponentCreator('/template/README','cf2'),
+  exact: true,
+},
+{
+  path: '/template/src/js/main',
+  component: ComponentCreator('/template/src/js/main','29e'),
+  exact: true,
+},
+{
   path: '/docs',
-  component: ComponentCreator('/docs','8ef'),
+  component: ComponentCreator('/docs','910'),
   
   routes: [
 {
@@ -133,8 +143,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Overview/overviewde',
-  component: ComponentCreator('/docs/Overview/overviewde','a09'),
+  path: '/docs/Overview/architecture',
+  component: ComponentCreator('/docs/Overview/architecture','df0'),
   exact: true,
 },
 ]

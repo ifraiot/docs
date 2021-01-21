@@ -2,6 +2,7 @@
 id: overview
 title: IFRA IIoT
 sidebar_label: "IFRA คืออะไร"
+slug: /
 ---
 
 

@@ -40,8 +40,8 @@ module.exports={
     [
       "@docusaurus/preset-classic",
       {
+         
         "docs": {
-          "homePageId": "overview",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
           "path": "../docs",
@@ -58,6 +58,7 @@ module.exports={
   ],
   "plugins": [],
   "themeConfig": {
+    hideableSidebar: false,
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
@@ -93,7 +94,7 @@ module.exports={
         "src": "img/logo-ifra.svg"
       },
       "items": [
-        
+      
         {
           "to": "docs",
           "activeBasePath": 'docs',
@@ -101,8 +102,8 @@ module.exports={
           "position": "left"
         },
         {
-          "href": "https://ifra.io/blog/",
-          "label": "บล็อก",
+          "to": "blog",
+          "label": "Blog",
           "position": "left"
         },
         {

@@ -41,7 +41,6 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "homePageId": "overview",
           "showLastUpdateAuthor": true,
           "showLastUpdateTime": true,
           "path": "../docs",
@@ -58,6 +57,7 @@ export default {
   ],
   "plugins": [],
   "themeConfig": {
+    "hideableSidebar": false,
     "prism": {
       "theme": {
         "plain": {
@@ -287,8 +287,8 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://ifra.io/blog/",
-          "label": "บล็อก",
+          "to": "blog",
+          "label": "Blog",
           "position": "left"
         },
         {
@@ -320,8 +320,7 @@ export default {
     "docs": {
       "versionPersistence": "localStorage"
     },
-    "metadatas": [],
-    "hideableSidebar": false
+    "metadatas": []
   },
   "baseUrlIssueBanner": true,
   "i18n": {

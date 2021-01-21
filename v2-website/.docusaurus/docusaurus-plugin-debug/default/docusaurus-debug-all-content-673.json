@@ -36,7 +36,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Overview/overviewde"
+                    "id": "Overview/architecture"
                   }
                 ]
               },
@@ -96,7 +96,7 @@
             "/docs/Download/sdk": "docs",
             "/docs/getStarted": "docs",
             "/docs/": "docs",
-            "/docs/Overview/overviewde": "docs"
+            "/docs/Overview/architecture": "docs"
           },
           "docs": [
             {
@@ -204,8 +204,8 @@
               "sidebar_label": "Thing",
               "sidebar": "docs",
               "previous": {
-                "title": "สถาปัตยกรรมของระบบ",
-                "permalink": "/docs/Overview/overviewde"
+                "title": "System architecture",
+                "permalink": "/docs/Overview/architecture"
               },
               "next": {
                 "title": "Devices",
@@ -249,14 +249,14 @@
                 "permalink": "/docs/"
               },
               "next": {
-                "title": "สถาปัตยกรรมของระบบ",
-                "permalink": "/docs/Overview/overviewde"
+                "title": "System architecture",
+                "permalink": "/docs/Overview/architecture"
               }
             },
             {
               "unversionedId": "overview",
               "id": "overview",
-              "isDocsHomePage": true,
+              "isDocsHomePage": false,
               "title": "IFRA IIoT",
               "description": "IFRA IIoT เป็นแพลตฟอร์มที่ช่วยให้นักพัฒนาด้าน Internet of Things สามารถพัฒนาแอปพลิเคชันหรือโซลูชั่นได้อย่างรวดเร็วและมีประสิทธิภาพ สามารถใช้ในอุตสาหกรรมต่างๆ มากมาย  IFRA สามารถเชื่อมต่ออุปกรณ์ ฮาร์ดแวร์ได้หลายหลายชนิด และนำข้อมูลที่ได้มาเคราะห์เพื่อทำการตัดสินใจได้แบบ Real-Time",
               "source": "@site/../docs/overview.md",
@@ -273,14 +273,14 @@
               }
             },
             {
-              "unversionedId": "Overview/overviewde",
-              "id": "Overview/overviewde",
+              "unversionedId": "Overview/architecture",
+              "id": "Overview/architecture",
               "isDocsHomePage": false,
-              "title": "สถาปัตยกรรมของระบบ",
+              "title": "System architecture",
               "description": "this is another document",
               "source": "@site/../docs/Overview/overviewde.md",
-              "slug": "/Overview/overviewde",
-              "permalink": "/docs/Overview/overviewde",
+              "slug": "/Overview/architecture",
+              "permalink": "/docs/Overview/architecture",
               "version": "current",
               "lastUpdatedBy": "Author",
               "lastUpdatedAt": 1539502055,
@@ -430,19 +430,29 @@
   "docusaurus-plugin-content-pages": {
     "default": [
       {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.jsx"
+      },
+      {
         "type": "mdx",
-        "permalink": "/hello",
-        "source": "@site/src/pages/hello.md"
+        "permalink": "/template/CHANGELOG",
+        "source": "@site/src/pages/template/CHANGELOG.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/template/README",
+        "source": "@site/src/pages/template/README.md"
       },
       {
         "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.js"
+        "permalink": "/template/dist/js/main.min",
+        "source": "@site/src/pages/template/dist/js/main.min.js"
       },
       {
-        "type": "mdx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.md"
+        "type": "jsx",
+        "permalink": "/template/src/js/main",
+        "source": "@site/src/pages/template/src/js/main.js"
       }
     ]
   },

@@ -1,6 +1,6 @@
 ---
-id: overviewde
-title: "สถาปัตยกรรมของระบบ"
+id: architecture
+title: "System architecture"
 sidebar_label: "สถาปัตยกรรมของระบบ"
 ---
 

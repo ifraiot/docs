@@ -1,11 +1,7 @@
 {
-  "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
+  "/-c79": {
+    "component": "component---site-src-pages-index-jsx-9-dd-cb1",
     "config": "config---5-e-9-4f3"
-  },
-  "/-5f1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---f-39-267"
   },
   "/__docusaurus/debug-3d6": {
     "component": "component---theme-debug-config-23-a-2ff"
@@ -76,14 +72,26 @@
     "sidebar": "sidebar---blog-708-79c",
     "content": "content---blog-2017-10-24-new-version-1-0-0-bbb-777"
   },
-  "/hello-5a5": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---hello-79-f-595"
-  },
   "/search-d9b": {
     "component": "component---users-shinji-project-document-ifra-docs-v-2-website-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-jsda-6-461"
   },
-  "/docs-8ef": {
+  "/template/CHANGELOG-0e9": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---template-changelo-gb-9-d-c46"
+  },
+  "/template/dist/js/main.min-dcd": {
+    "component": "component---site-src-pages-template-dist-js-main-min-jsbc-8-898",
+    "config": "config---5-e-9-4f3"
+  },
+  "/template/README-cf2": {
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---template-readme-83-a-208"
+  },
+  "/template/src/js/main-29e": {
+    "component": "component---site-src-pages-template-src-js-main-js-61-f-fc6",
+    "config": "config---5-e-9-4f3"
+  },
+  "/docs-910": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -119,8 +127,8 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-get-started-716-a6b"
   },
-  "/docs/Overview/overviewde-a09": {
+  "/docs/Overview/architecture-df0": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-overview-overviewde-96-f-ff7"
+    "content": "content---docs-overview-architecture-96-f-93f"
   }
 }

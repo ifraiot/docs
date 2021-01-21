@@ -30,7 +30,7 @@
           {
             "type": "link",
             "label": "สถาปัตยกรรมของระบบ",
-            "href": "/docs/Overview/overviewde"
+            "href": "/docs/Overview/architecture"
           }
         ]
       },
@@ -96,6 +96,6 @@
     "/docs/Download/sdk": "docs",
     "/docs/getStarted": "docs",
     "/docs/": "docs",
-    "/docs/Overview/overviewde": "docs"
+    "/docs/Overview/architecture": "docs"
   }
 }
