@@ -1,0 +1,22 @@
+{
+  "unversionedId": "connection/mqtt",
+  "id": "connection/mqtt",
+  "isDocsHomePage": false,
+  "title": "MQTT",
+  "description": "เราสามารถสร้างการเชื่อมต่อเพื่อส่งข้อมูลผ่าน MQTT ได้อย่างง่ายโดยการนำเอา API KEY จากระบบที่สร้างให้ไปตั้งค่าในอุปกรณ์เพื่อทำการเชื่อมต่อได้ทันที สามารถดูขั้นตอนการสร้่าง Thing เพื่อรับ API KEY ได้ในขั้นตอนก่อนหน้านี้",
+  "source": "@site/../docs/connection/mqtt.md",
+  "slug": "/connection/mqtt",
+  "permalink": "/docs/connection/mqtt",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Measurement",
+    "permalink": "/docs/management/measurement"
+  },
+  "next": {
+    "title": "HTTP",
+    "permalink": "/docs/connection/http"
+  }
+}

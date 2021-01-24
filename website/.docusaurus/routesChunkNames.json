@@ -1,0 +1,97 @@
+{
+  "/-c79": {
+    "component": "9dd8a0d2",
+    "config": "5e9f5e1a"
+  },
+  "/search-588": {
+    "component": "3cba62f1"
+  },
+  "/docs-e22": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/-a0d": {
+    "component": "17896441",
+    "content": "0454310e"
+  },
+  "/docs/connection/http-80b": {
+    "component": "17896441",
+    "content": "ed247063"
+  },
+  "/docs/connection/mqtt-ccb": {
+    "component": "17896441",
+    "content": "63b4fc3f"
+  },
+  "/docs/connection/opc-ua-114": {
+    "component": "17896441",
+    "content": "ec85c975"
+  },
+  "/docs/dashboard/bar-bc8": {
+    "component": "17896441",
+    "content": "bcf5f17a"
+  },
+  "/docs/dashboard/clock-a43": {
+    "component": "17896441",
+    "content": "1e8c2c63"
+  },
+  "/docs/dashboard/couter-5e2": {
+    "component": "17896441",
+    "content": "ea88f5a9"
+  },
+  "/docs/dashboard/gauge-801": {
+    "component": "17896441",
+    "content": "85d2acdf"
+  },
+  "/docs/dashboard/line-53e": {
+    "component": "17896441",
+    "content": "f034f134"
+  },
+  "/docs/dashboard/magic-159": {
+    "component": "17896441",
+    "content": "1473c821"
+  },
+  "/docs/dashboard/pie-2b8": {
+    "component": "17896441",
+    "content": "b1017764"
+  },
+  "/docs/dashboard/text-3ba": {
+    "component": "17896441",
+    "content": "a6371938"
+  },
+  "/docs/download/sdk-990": {
+    "component": "17896441",
+    "content": "4b93549c"
+  },
+  "/docs/example/index-d65": {
+    "component": "17896441",
+    "content": "3626913c"
+  },
+  "/docs/getstarted-873": {
+    "component": "17896441",
+    "content": "716f46ee"
+  },
+  "/docs/integrations/systems-259": {
+    "component": "17896441",
+    "content": "23c0487f"
+  },
+  "/docs/management/devices-5c8": {
+    "component": "17896441",
+    "content": "e3b5d8eb"
+  },
+  "/docs/management/measurement-9b5": {
+    "component": "17896441",
+    "content": "28ffe248"
+  },
+  "/docs/management/thing-a65": {
+    "component": "17896441",
+    "content": "7bd70b0e"
+  },
+  "/docs/overview/architecture-b4b": {
+    "component": "17896441",
+    "content": "f7fe62bb"
+  },
+  "/docs/overview/how-ifra-work-9c1": {
+    "component": "17896441",
+    "content": "5ee7e676"
+  }
+}

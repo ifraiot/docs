@@ -1,0 +1,23 @@
+{
+  "unversionedId": "dashboard/clock",
+  "id": "dashboard/clock",
+  "isDocsHomePage": false,
+  "title": "Clock",
+  "description": "ในขั้นตอนแรกให้สร้าง Dashboard หากสร้างใว้แล้วให้เข้าไปในหน้า Dashboard แล้วคลิก Create Widget จากนั้นเลือก Clock",
+  "source": "@site/../docs/dashboard/clock.md",
+  "slug": "/dashboard/clock",
+  "permalink": "/docs/dashboard/clock",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar_label": "Clock",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pie Chart",
+    "permalink": "/docs/dashboard/pie"
+  },
+  "next": {
+    "title": "Gauge chart",
+    "permalink": "/docs/dashboard/gauge"
+  }
+}

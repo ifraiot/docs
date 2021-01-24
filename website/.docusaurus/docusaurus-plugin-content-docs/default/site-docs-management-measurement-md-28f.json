@@ -1,0 +1,23 @@
+{
+  "unversionedId": "management/measurement",
+  "id": "management/measurement",
+  "isDocsHomePage": false,
+  "title": "Measurement",
+  "description": "Measurement management คือการวัดเพื่อส่งค่าไปยังอุปกรณ์โดยใช้เซ็นเซอร์ และยังสามารถใช้ Actuator เพื่อส่งข้อมูลกลับไปควบคุมอุปกรณ์ปลายทางได้",
+  "source": "@site/../docs/management/measurement.md",
+  "slug": "/management/measurement",
+  "permalink": "/docs/management/measurement",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar_label": "Measurement",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Device",
+    "permalink": "/docs/management/devices"
+  },
+  "next": {
+    "title": "MQTT",
+    "permalink": "/docs/connection/mqtt"
+  }
+}

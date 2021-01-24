@@ -1,0 +1,23 @@
+{
+  "unversionedId": "dashboard/pie",
+  "id": "dashboard/pie",
+  "isDocsHomePage": false,
+  "title": "Pie Chart",
+  "description": "ในขั้นตอนแรกให้สร้าง Dashboard หากสร้างใว้แล้วให้เข้าไปในหน้า Dashboard แล้วคลิก Create Widget จากนั้นเลือก Pie",
+  "source": "@site/../docs/dashboard/pie.md",
+  "slug": "/dashboard/pie",
+  "permalink": "/docs/dashboard/pie",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar_label": "Pie Chart",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bar chart",
+    "permalink": "/docs/dashboard/bar"
+  },
+  "next": {
+    "title": "Clock",
+    "permalink": "/docs/dashboard/clock"
+  }
+}

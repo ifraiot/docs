@@ -1,0 +1,21 @@
+{
+  "unversionedId": "overview/architecture",
+  "id": "overview/architecture",
+  "isDocsHomePage": false,
+  "title": "สถาปัตยกรรมของระบบ",
+  "description": "IFRA IoT เป็นแพลตฟอร์มที่รองรับการเชื่อมต่อได้หลากหลายอุปกรณ์ ไม่ว่าจะเป็น Rasberry PI, ESP32, Arduno หรืออุปกรณ์จากโรงงาน โดยทั่วไปแล้วถ้าอุปกรณ์ที่ใช้รองรับการเชื่อมต่อตามที่เรากำหนดก็จะสามารถใช้งานได้ทุกอุปกรณ์",
+  "source": "@site/../docs/overview/overviewde.md",
+  "slug": "/overview/architecture",
+  "permalink": "/docs/overview/architecture",
+  "version": "current",
+  "sidebar_label": "System architecture",
+  "sidebar": "docs",
+  "previous": {
+    "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
+    "permalink": "/docs/getstarted"
+  },
+  "next": {
+    "title": "เราทำงานอย่างไร",
+    "permalink": "/docs/overview/how-ifra-work"
+  }
+}

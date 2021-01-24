@@ -1,0 +1,21 @@
+{
+  "unversionedId": "overview/how-ifra-work",
+  "id": "overview/how-ifra-work",
+  "isDocsHomePage": false,
+  "title": "เราทำงานอย่างไร",
+  "description": "การทำงานของเราจะประกอบไปด้วยส่วนหลักๆ 5 ส่วนคือ",
+  "source": "@site/../docs/overview/how_ifra_work.md",
+  "slug": "/overview/how-ifra-work",
+  "permalink": "/docs/overview/how-ifra-work",
+  "version": "current",
+  "sidebar_label": "How IFRA work",
+  "sidebar": "docs",
+  "previous": {
+    "title": "สถาปัตยกรรมของระบบ",
+    "permalink": "/docs/overview/architecture"
+  },
+  "next": {
+    "title": "Thing",
+    "permalink": "/docs/management/thing"
+  }
+}

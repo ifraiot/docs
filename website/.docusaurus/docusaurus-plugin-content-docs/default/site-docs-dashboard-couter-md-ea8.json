@@ -1,0 +1,23 @@
+{
+  "unversionedId": "dashboard/couter",
+  "id": "dashboard/couter",
+  "isDocsHomePage": false,
+  "title": "Couter",
+  "description": "การสร้าง Couter",
+  "source": "@site/../docs/dashboard/couter.md",
+  "slug": "/dashboard/couter",
+  "permalink": "/docs/dashboard/couter",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar_label": "Couter",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Text",
+    "permalink": "/docs/dashboard/text"
+  },
+  "next": {
+    "title": "Magic",
+    "permalink": "/docs/dashboard/magic"
+  }
+}

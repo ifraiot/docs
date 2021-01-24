@@ -1,0 +1,13 @@
+{
+  "unversionedId": "integrations/systems",
+  "id": "integrations/systems",
+  "isDocsHomePage": false,
+  "title": "การเชื่อมต่อกับระบบอื่นๆ",
+  "source": "@site/../docs/integrations/systems.md",
+  "slug": "/integrations/systems",
+  "permalink": "/docs/integrations/systems",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar_label": "integrations"
+}

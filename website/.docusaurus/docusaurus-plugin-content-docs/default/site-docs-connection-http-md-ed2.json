@@ -1,0 +1,22 @@
+{
+  "unversionedId": "connection/http",
+  "id": "connection/http",
+  "isDocsHomePage": false,
+  "title": "HTTP",
+  "description": "การส่งผ่าน Protocol HTTP จะเป็นการส่งตามรูปแบบตัวอย่างด้านล่างนี้ โดยใช้ Method POST โดยเราต้องมี channelID เพื่อเป็นคีย์ระบุในการส่งข้อมูล สามารถรับ channelID  ได้ที่ API KEY ในขั้นตอนสร้าง Device",
+  "source": "@site/../docs/connection/http.md",
+  "slug": "/connection/http",
+  "permalink": "/docs/connection/http",
+  "version": "current",
+  "lastUpdatedBy": "SHINJI",
+  "lastUpdatedAt": 1611478231,
+  "sidebar": "docs",
+  "previous": {
+    "title": "MQTT",
+    "permalink": "/docs/connection/mqtt"
+  },
+  "next": {
+    "title": "OPC-UA",
+    "permalink": "/docs/connection/opc-ua"
+  }
+}
