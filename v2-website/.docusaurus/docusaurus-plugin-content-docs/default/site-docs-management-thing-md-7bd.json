@@ -1,0 +1,23 @@
+{
+  "unversionedId": "management/thing",
+  "id": "management/thing",
+  "isDocsHomePage": false,
+  "title": "Thing",
+  "description": "Thing management เปรียบเสมือนสรรพสิ่งต่างๆ ที่คุณตั้งขึ้นเพื่อที่จะมาเชื่อมต่อกับแพลตฟอร์มโดยใน Thing นั้นจะประกอบด้วยส่วนย่อย 2 ส่วนคือ Device(อุปกรณ์) และ Measurements(เซ็นเซอร์ต่างๆ)",
+  "source": "@site/../docs/management/thing.md",
+  "slug": "/management/thing",
+  "permalink": "/docs/management/thing",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Thing",
+  "sidebar": "docs",
+  "previous": {
+    "title": "เราทำงานอย่างไร",
+    "permalink": "/docs/overview/how-ifra-work"
+  },
+  "next": {
+    "title": "Device",
+    "permalink": "/docs/management/devices"
+  }
+}

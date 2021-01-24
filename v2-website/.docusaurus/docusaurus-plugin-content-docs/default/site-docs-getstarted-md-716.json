@@ -1,12 +1,12 @@
 {
-  "unversionedId": "getStarted",
-  "id": "getStarted",
+  "unversionedId": "getstarted",
+  "id": "getstarted",
   "isDocsHomePage": false,
   "title": "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA",
   "description": "ยินดีต้อนรับสู่แพลตฟอร์ม IFRA IoT",
   "source": "@site/../docs/getstarted.md",
-  "slug": "/getStarted",
-  "permalink": "/docs/getStarted",
+  "slug": "/getstarted",
+  "permalink": "/docs/getstarted",
   "version": "current",
   "lastUpdatedBy": "Author",
   "lastUpdatedAt": 1539502055,
@@ -17,7 +17,7 @@
     "permalink": "/docs/"
   },
   "next": {
-    "title": "System architecture",
-    "permalink": "/docs/Overview/architecture"
+    "title": "สถาปัตยกรรมของระบบ",
+    "permalink": "/docs/overview/architecture"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "dashboard/guage",
+  "id": "dashboard/guage",
+  "isDocsHomePage": false,
+  "title": "guage",
+  "description": "",
+  "source": "@site/../docs/dashboard/guage.md",
+  "slug": "/dashboard/guage",
+  "permalink": "/docs/dashboard/guage",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Clock",
+    "permalink": "/docs/dashboard/clock"
+  },
+  "next": {
+    "title": "text",
+    "permalink": "/docs/dashboard/text"
+  }
+}

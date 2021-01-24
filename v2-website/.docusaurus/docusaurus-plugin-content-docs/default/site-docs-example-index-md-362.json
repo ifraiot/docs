@@ -1,0 +1,12 @@
+{
+  "unversionedId": "example/index",
+  "id": "example/index",
+  "isDocsHomePage": false,
+  "title": "ตัวอย่างโปรเจคต่างๆ",
+  "source": "@site/../docs/example/index.md",
+  "slug": "/example/index",
+  "permalink": "/docs/example/index",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055
+}

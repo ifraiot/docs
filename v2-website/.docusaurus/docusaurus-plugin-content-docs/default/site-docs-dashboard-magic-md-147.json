@@ -1,0 +1,23 @@
+{
+  "unversionedId": "dashboard/magic",
+  "id": "dashboard/magic",
+  "isDocsHomePage": false,
+  "title": "Magic",
+  "description": "ในขั้นตอนแรกให้สร้าง Dashboard หากสร้างใว้แล้วให้เข้าไปในหน้า Dashboard แล้วคลิก Create Widget จากนั้นเลือก Magic",
+  "source": "@site/../docs/dashboard/magic.md",
+  "slug": "/dashboard/magic",
+  "permalink": "/docs/dashboard/magic",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Magic",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Couter",
+    "permalink": "/docs/dashboard/couter"
+  },
+  "next": {
+    "title": "SDK",
+    "permalink": "/docs/download/sdk"
+  }
+}

@@ -252,6 +252,19 @@ export default {
       },
       "additionalLanguages": []
     },
+    "algolia": {
+      "apiKey": "25626fae796133dc1e734c6bcaaeac3c",
+      "indexName": "docsearch",
+      "algoliaOptions": {
+        "facetFilters": [
+          "language:LANGUAGE",
+          "version:VERSION"
+        ]
+      },
+      "contextualSearch": false,
+      "appId": "BH4D9OD16A",
+      "searchParameters": {}
+    },
     "announcementBar": {
       "id": "support_us",
       "content": "หากคุณมีคำถามหรือข้อสงสัยใด ๆ เกี่ยวกับเอกสารนี้โปรดอย่าลังเลที่จะแจ้งให้เราทราบ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.facebook.com/groups/2733756676717051\">แจ้งปัญหา</a>",
@@ -303,19 +316,6 @@ export default {
       "links": [],
       "copyright": "Copyright © 2021 IFRA IIoT Platform",
       "style": "light"
-    },
-    "algolia": {
-      "apiKey": "25626fae796133dc1e734c6bcaaeac3c",
-      "indexName": "docsearch",
-      "algoliaOptions": {
-        "facetFilters": [
-          "language:LANGUAGE",
-          "version:VERSION"
-        ]
-      },
-      "contextualSearch": false,
-      "appId": "BH4D9OD16A",
-      "searchParameters": {}
     },
     "docs": {
       "versionPersistence": "localStorage"

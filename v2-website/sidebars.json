@@ -2,18 +2,33 @@
   "docs": {
     "IFRA IIOT": 
     ["overview",
-    "getStarted"],
-    "Overview":["Overview/architecture"],
+    "getstarted"],
+    "Overview":[
+      "overview/architecture",
+      "overview/how-ifra-work"
+    ],
     "Device Management":
      [
-      "Device_management/thing",
-      "Device_management/devices",
-      "Device_management/measurement"
+      "management/thing",
+      "management/devices",
+      "management/measurement"
       ],
-    "Real-Time Dashboard":[
-      "Dashboard/chart_widget",
-      "Dashboard/control_widget"],  
-    "Download": ["Download/sdk"]
+    "Connection Protocol": [
+      "connection/mqtt",
+      "connection/http",
+      "connection/opc-ua"
+    ],
+    "Data Visualization":[
+      "dashboard/line",
+      "dashboard/bar",
+      "dashboard/pie",
+      "dashboard/clock",
+      "dashboard/gauge",
+      "dashboard/text",
+      "dashboard/couter",
+      "dashboard/magic"
+    ], 
+    "Download": ["download/sdk"]
   }
   
 }

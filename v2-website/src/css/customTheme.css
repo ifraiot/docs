@@ -1,11 +1,23 @@
 header h1 {
   font-size: 1.5rem !important;
 }
-.main-wrapper {
 
-}
 /*! CSS Used from: https://preview.cruip.com/neon/css/style.css */
 
+.DocSearch-Modal {
+  margin-top: 160px!important;
+}
+.main-wrapper {
+  height: 100vh;
+  flex: none;
+  display: contents;
+}
+.tbuttonn:hover {
+  color: #eee
+}
+.nw {
+  flex: 0!important;
+}
 @media (min-width: 641px) {
   .t [class*="reveal-"] {
     opacity: 0;
@@ -44,100 +56,7 @@ header h1 {
     transform: translate(0);
   }
 }
-img {
-  border-radius: 2px;
-}
-img,
-svg {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-input {
-  font-family: "Heebo", sans-serif;
-  font-weight: 400;
-}
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 600;
-  clear: both;
-  color: #f9faff;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-h1 {
-  font-size: 38px;
-  line-height: 48px;
-}
-h2 {
-  font-size: 32px;
-  line-height: 42px;
-}
-h3 {
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: -0.1px;
-}
-h4 {
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: -0.1px;
-}
-.l {
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: -0.1px;
-}
-.c {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.1px;
-}
-a:not(.tbuttonn) {
-  color: inherit;
-}
-a:not(.tbuttonn):hover,
-a:not(.tbuttonn):active {
-  color: #f9faff;
-  outline: 0;
-}
-h1 {
-  margin-top: 48px;
-  margin-bottom: 32px;
-}
-h2 {
-  margin-top: 48px;
-  margin-bottom: 32px;
-}
-h3 {
-  margin-top: 36px;
-  margin-bottom: 24px;
-}
-h4 {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-p {
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-@media (min-width: 641px) {
-  h1 {
-    font-size: 44px;
-    line-height: 54px;
-  }
-  h2 {
-    font-size: 38px;
-    line-height: 48px;
-  }
-  h3 {
-    font-size: 32px;
-    line-height: 42px;
-  }
-}
+
 .tcontainern,
 .scontainero {
   width: 100%;
@@ -521,29 +440,8 @@ p {
   padding-top: 26px;
   padding-bottom: 26px;
 }
-.il ul {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  margin: 0;
-}
-.il li {
-  padding: 12px 28px;
-}
-@media (min-width: 641px) {
-  .if .il ul {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-  }
-}
+
+
 [class*="illustration-"] {
   position: relative;
 }
@@ -554,7 +452,7 @@ p {
   z-index: -2;
 }
 .tillustration-section-n::after {
-  z-index: 1000;
+  z-index: 0;
   content: "";
   position: absolute;
   width: 100%;

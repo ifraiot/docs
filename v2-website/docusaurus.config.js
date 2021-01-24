@@ -62,6 +62,12 @@ module.exports={
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
+      
+      // theme: require('prism-react-renderer/themes/github'),
+      // darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
+    algolia: {
+      contextualSearch: true,
     },
      announcementBar: {
       id: 'support_us', // Any value that will identify this message.

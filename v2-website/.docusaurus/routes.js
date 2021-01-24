@@ -43,63 +43,13 @@ export default [
   exact: true,
 },
 {
-  path: '/blog',
-  component: ComponentCreator('/blog','445'),
-  exact: true,
-},
-{
-  path: '/blog/2016/03/11/blog-post',
-  component: ComponentCreator('/blog/2016/03/11/blog-post','1ff'),
-  exact: true,
-},
-{
-  path: '/blog/2017/04/10/blog-post-two',
-  component: ComponentCreator('/blog/2017/04/10/blog-post-two','bd3'),
-  exact: true,
-},
-{
-  path: '/blog/2017/09/25/testing-rss',
-  component: ComponentCreator('/blog/2017/09/25/testing-rss','e16'),
-  exact: true,
-},
-{
-  path: '/blog/2017/09/26/adding-rss',
-  component: ComponentCreator('/blog/2017/09/26/adding-rss','0f5'),
-  exact: true,
-},
-{
-  path: '/blog/2017/10/24/new-version-1.0.0',
-  component: ComponentCreator('/blog/2017/10/24/new-version-1.0.0','965'),
-  exact: true,
-},
-{
   path: '/search',
   component: ComponentCreator('/search','d9b'),
   exact: true,
 },
 {
-  path: '/template/CHANGELOG',
-  component: ComponentCreator('/template/CHANGELOG','0e9'),
-  exact: true,
-},
-{
-  path: '/template/dist/js/main.min',
-  component: ComponentCreator('/template/dist/js/main.min','dcd'),
-  exact: true,
-},
-{
-  path: '/template/README',
-  component: ComponentCreator('/template/README','cf2'),
-  exact: true,
-},
-{
-  path: '/template/src/js/main',
-  component: ComponentCreator('/template/src/js/main','29e'),
-  exact: true,
-},
-{
   path: '/docs',
-  component: ComponentCreator('/docs','910'),
+  component: ComponentCreator('/docs','e22'),
   
   routes: [
 {
@@ -108,43 +58,103 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Dashboard/chart_widget',
-  component: ComponentCreator('/docs/Dashboard/chart_widget','c54'),
+  path: '/docs/connection/http',
+  component: ComponentCreator('/docs/connection/http','80b'),
   exact: true,
 },
 {
-  path: '/docs/Dashboard/control_widget',
-  component: ComponentCreator('/docs/Dashboard/control_widget','c17'),
+  path: '/docs/connection/mqtt',
+  component: ComponentCreator('/docs/connection/mqtt','ccb'),
   exact: true,
 },
 {
-  path: '/docs/Device_management/devices',
-  component: ComponentCreator('/docs/Device_management/devices','2ae'),
+  path: '/docs/connection/opc-ua',
+  component: ComponentCreator('/docs/connection/opc-ua','114'),
   exact: true,
 },
 {
-  path: '/docs/Device_management/measurement',
-  component: ComponentCreator('/docs/Device_management/measurement','098'),
+  path: '/docs/dashboard/bar',
+  component: ComponentCreator('/docs/dashboard/bar','bc8'),
   exact: true,
 },
 {
-  path: '/docs/Device_management/thing',
-  component: ComponentCreator('/docs/Device_management/thing','ac4'),
+  path: '/docs/dashboard/clock',
+  component: ComponentCreator('/docs/dashboard/clock','a43'),
   exact: true,
 },
 {
-  path: '/docs/Download/sdk',
-  component: ComponentCreator('/docs/Download/sdk','952'),
+  path: '/docs/dashboard/couter',
+  component: ComponentCreator('/docs/dashboard/couter','5e2'),
   exact: true,
 },
 {
-  path: '/docs/getStarted',
-  component: ComponentCreator('/docs/getStarted','ed7'),
+  path: '/docs/dashboard/gauge',
+  component: ComponentCreator('/docs/dashboard/gauge','801'),
   exact: true,
 },
 {
-  path: '/docs/Overview/architecture',
-  component: ComponentCreator('/docs/Overview/architecture','df0'),
+  path: '/docs/dashboard/line',
+  component: ComponentCreator('/docs/dashboard/line','53e'),
+  exact: true,
+},
+{
+  path: '/docs/dashboard/magic',
+  component: ComponentCreator('/docs/dashboard/magic','159'),
+  exact: true,
+},
+{
+  path: '/docs/dashboard/pie',
+  component: ComponentCreator('/docs/dashboard/pie','2b8'),
+  exact: true,
+},
+{
+  path: '/docs/dashboard/text',
+  component: ComponentCreator('/docs/dashboard/text','3ba'),
+  exact: true,
+},
+{
+  path: '/docs/download/sdk',
+  component: ComponentCreator('/docs/download/sdk','990'),
+  exact: true,
+},
+{
+  path: '/docs/example/index',
+  component: ComponentCreator('/docs/example/index','d65'),
+  exact: true,
+},
+{
+  path: '/docs/getstarted',
+  component: ComponentCreator('/docs/getstarted','873'),
+  exact: true,
+},
+{
+  path: '/docs/integrations/systems',
+  component: ComponentCreator('/docs/integrations/systems','259'),
+  exact: true,
+},
+{
+  path: '/docs/management/devices',
+  component: ComponentCreator('/docs/management/devices','5c8'),
+  exact: true,
+},
+{
+  path: '/docs/management/measurement',
+  component: ComponentCreator('/docs/management/measurement','9b5'),
+  exact: true,
+},
+{
+  path: '/docs/management/thing',
+  component: ComponentCreator('/docs/management/thing','a65'),
+  exact: true,
+},
+{
+  path: '/docs/overview/architecture',
+  component: ComponentCreator('/docs/overview/architecture','b4b'),
+  exact: true,
+},
+{
+  path: '/docs/overview/how-ifra-work',
+  component: ComponentCreator('/docs/overview/how-ifra-work','9c1'),
   exact: true,
 },
 ]

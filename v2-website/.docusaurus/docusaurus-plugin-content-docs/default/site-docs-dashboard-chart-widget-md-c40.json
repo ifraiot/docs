@@ -1,0 +1,13 @@
+{
+  "unversionedId": "dashboard/chart_widget",
+  "id": "dashboard/chart_widget",
+  "isDocsHomePage": false,
+  "title": "Chart Widget",
+  "description": "คือ แผนภูมิภาพแสดงค่าสถิติของข้อมูล ที่ส่งมาจากอุปกรณ์",
+  "source": "@site/../docs/dashboard/chart_widget.md",
+  "slug": "/dashboard/chart_widget",
+  "permalink": "/docs/dashboard/chart_widget",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055
+}

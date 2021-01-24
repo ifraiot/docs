@@ -18,7 +18,7 @@
           {
             "type": "link",
             "label": "เริ่มต้นใช้งาน",
-            "href": "/docs/getStarted"
+            "href": "/docs/getstarted"
           }
         ]
       },
@@ -29,8 +29,13 @@
         "items": [
           {
             "type": "link",
-            "label": "สถาปัตยกรรมของระบบ",
-            "href": "/docs/Overview/architecture"
+            "label": "System architecture",
+            "href": "/docs/overview/architecture"
+          },
+          {
+            "type": "link",
+            "label": "How IFRA work",
+            "href": "/docs/overview/how-ifra-work"
           }
         ]
       },
@@ -42,34 +47,86 @@
           {
             "type": "link",
             "label": "Thing",
-            "href": "/docs/Device_management/thing"
+            "href": "/docs/management/thing"
           },
           {
             "type": "link",
-            "label": "Devices",
-            "href": "/docs/Device_management/devices"
+            "label": "Device",
+            "href": "/docs/management/devices"
           },
           {
             "type": "link",
             "label": "Measurement",
-            "href": "/docs/Device_management/measurement"
+            "href": "/docs/management/measurement"
           }
         ]
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "Real-Time Dashboard",
+        "label": "Connection Protocol",
         "items": [
           {
             "type": "link",
-            "label": "Chart Widget",
-            "href": "/docs/Dashboard/chart_widget"
+            "label": "MQTT",
+            "href": "/docs/connection/mqtt"
           },
           {
             "type": "link",
-            "label": "Control Widget",
-            "href": "/docs/Dashboard/control_widget"
+            "label": "HTTP",
+            "href": "/docs/connection/http"
+          },
+          {
+            "type": "link",
+            "label": "OPC-UA",
+            "href": "/docs/connection/opc-ua"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Data Visualization",
+        "items": [
+          {
+            "type": "link",
+            "label": "Line Chart",
+            "href": "/docs/dashboard/line"
+          },
+          {
+            "type": "link",
+            "label": "Bar Chart",
+            "href": "/docs/dashboard/bar"
+          },
+          {
+            "type": "link",
+            "label": "Pie Chart",
+            "href": "/docs/dashboard/pie"
+          },
+          {
+            "type": "link",
+            "label": "Clock",
+            "href": "/docs/dashboard/clock"
+          },
+          {
+            "type": "link",
+            "label": "Gauge Chart",
+            "href": "/docs/dashboard/gauge"
+          },
+          {
+            "type": "link",
+            "label": "Text",
+            "href": "/docs/dashboard/text"
+          },
+          {
+            "type": "link",
+            "label": "Couter",
+            "href": "/docs/dashboard/couter"
+          },
+          {
+            "type": "link",
+            "label": "Magic",
+            "href": "/docs/dashboard/magic"
           }
         ]
       },
@@ -81,21 +138,31 @@
           {
             "type": "link",
             "label": "SDK",
-            "href": "/docs/Download/sdk"
+            "href": "/docs/download/sdk"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/Dashboard/chart_widget": "docs",
-    "/docs/Dashboard/control_widget": "docs",
-    "/docs/Device_management/devices": "docs",
-    "/docs/Device_management/measurement": "docs",
-    "/docs/Device_management/thing": "docs",
-    "/docs/Download/sdk": "docs",
-    "/docs/getStarted": "docs",
+    "/docs/connection/http": "docs",
+    "/docs/connection/mqtt": "docs",
+    "/docs/connection/opc-ua": "docs",
+    "/docs/dashboard/bar": "docs",
+    "/docs/dashboard/clock": "docs",
+    "/docs/dashboard/couter": "docs",
+    "/docs/dashboard/gauge": "docs",
+    "/docs/dashboard/line": "docs",
+    "/docs/dashboard/magic": "docs",
+    "/docs/dashboard/pie": "docs",
+    "/docs/dashboard/text": "docs",
+    "/docs/download/sdk": "docs",
+    "/docs/getstarted": "docs",
+    "/docs/management/devices": "docs",
+    "/docs/management/measurement": "docs",
+    "/docs/management/thing": "docs",
     "/docs/": "docs",
-    "/docs/Overview/architecture": "docs"
+    "/docs/overview/architecture": "docs",
+    "/docs/overview/how-ifra-work": "docs"
   }
 }

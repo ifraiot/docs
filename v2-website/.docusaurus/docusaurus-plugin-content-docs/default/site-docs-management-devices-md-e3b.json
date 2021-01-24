@@ -1,0 +1,23 @@
+{
+  "unversionedId": "management/devices",
+  "id": "management/devices",
+  "isDocsHomePage": false,
+  "title": "Device",
+  "description": "Devices management เป็นการสร้าง Devices ขึ้นมาเพื่อที่เราจะเอา API KEY ไปใส่ในอุปกรณ์หรือบอร์ดของเรา เช่น ESP32 หรือ Rasberry Pi เพื่อเชื่อมต่อข้อมูลเข้ามายังแพลตฟอร์ม IFRA IoT",
+  "source": "@site/../docs/management/devices.md",
+  "slug": "/management/devices",
+  "permalink": "/docs/management/devices",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Device",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Thing",
+    "permalink": "/docs/management/thing"
+  },
+  "next": {
+    "title": "Measurement",
+    "permalink": "/docs/management/measurement"
+  }
+}

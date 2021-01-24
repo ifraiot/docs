@@ -11,38 +11,91 @@
           "mainDocId": "overview",
           "docs": [
             {
-              "id": "Dashboard/chart_widget",
-              "path": "/docs/Dashboard/chart_widget",
+              "id": "connection/http",
+              "path": "/docs/connection/http",
               "sidebar": "docs"
             },
             {
-              "id": "Dashboard/control_widget",
-              "path": "/docs/Dashboard/control_widget",
+              "id": "connection/mqtt",
+              "path": "/docs/connection/mqtt",
               "sidebar": "docs"
             },
             {
-              "id": "Device_management/devices",
-              "path": "/docs/Device_management/devices",
+              "id": "connection/opc-ua",
+              "path": "/docs/connection/opc-ua",
               "sidebar": "docs"
             },
             {
-              "id": "Device_management/measurement",
-              "path": "/docs/Device_management/measurement",
+              "id": "dashboard/bar",
+              "path": "/docs/dashboard/bar",
               "sidebar": "docs"
             },
             {
-              "id": "Device_management/thing",
-              "path": "/docs/Device_management/thing",
+              "id": "dashboard/clock",
+              "path": "/docs/dashboard/clock",
               "sidebar": "docs"
             },
             {
-              "id": "Download/sdk",
-              "path": "/docs/Download/sdk",
+              "id": "dashboard/couter",
+              "path": "/docs/dashboard/couter",
               "sidebar": "docs"
             },
             {
-              "id": "getStarted",
-              "path": "/docs/getStarted",
+              "id": "dashboard/gauge",
+              "path": "/docs/dashboard/gauge",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/line",
+              "path": "/docs/dashboard/line",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/magic",
+              "path": "/docs/dashboard/magic",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/pie",
+              "path": "/docs/dashboard/pie",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/text",
+              "path": "/docs/dashboard/text",
+              "sidebar": "docs"
+            },
+            {
+              "id": "download/sdk",
+              "path": "/docs/download/sdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "example/index",
+              "path": "/docs/example/index"
+            },
+            {
+              "id": "getstarted",
+              "path": "/docs/getstarted",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/systems",
+              "path": "/docs/integrations/systems"
+            },
+            {
+              "id": "management/devices",
+              "path": "/docs/management/devices",
+              "sidebar": "docs"
+            },
+            {
+              "id": "management/measurement",
+              "path": "/docs/management/measurement",
+              "sidebar": "docs"
+            },
+            {
+              "id": "management/thing",
+              "path": "/docs/management/thing",
               "sidebar": "docs"
             },
             {
@@ -51,8 +104,13 @@
               "sidebar": "docs"
             },
             {
-              "id": "Overview/architecture",
-              "path": "/docs/Overview/architecture",
+              "id": "overview/architecture",
+              "path": "/docs/overview/architecture",
+              "sidebar": "docs"
+            },
+            {
+              "id": "overview/how-ifra-work",
+              "path": "/docs/overview/how-ifra-work",
               "sidebar": "docs"
             }
           ]

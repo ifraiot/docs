@@ -1,5 +1,5 @@
 ---
-id: getStarted
+id: getstarted
 title: "เริ่มต้นการใช้งานแพลตฟอร์ม IFRA"
 sidebar_label: "เริ่มต้นใช้งาน"
 ---

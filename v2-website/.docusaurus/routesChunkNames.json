@@ -25,73 +25,10 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-445": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blog-708-79c",
-    "items": [
-      {
-        "content": "content---blog-10-a-019"
-      },
-      {
-        "content": "content---blog-517-b25"
-      },
-      {
-        "content": "content---blogc-7-a-ec2"
-      },
-      {
-        "content": "content---blog-398-050"
-      },
-      {
-        "content": "content---blog-025-31a"
-      }
-    ],
-    "metadata": "metadata---blogb-2-b-df1"
-  },
-  "/blog/2016/03/11/blog-post-1ff": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-708-79c",
-    "content": "content---blog-2016-03-11-blog-postbf-9-764"
-  },
-  "/blog/2017/04/10/blog-post-two-bd3": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-708-79c",
-    "content": "content---blog-2017-04-10-blog-post-twodfa-94f"
-  },
-  "/blog/2017/09/25/testing-rss-e16": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-708-79c",
-    "content": "content---blog-2017-09-25-testing-rss-4-d-8-00d"
-  },
-  "/blog/2017/09/26/adding-rss-0f5": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-708-79c",
-    "content": "content---blog-2017-09-26-adding-rssad-7-946"
-  },
-  "/blog/2017/10/24/new-version-1.0.0-965": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-708-79c",
-    "content": "content---blog-2017-10-24-new-version-1-0-0-bbb-777"
-  },
   "/search-d9b": {
     "component": "component---users-shinji-project-document-ifra-docs-v-2-website-node-modules-docusaurus-theme-search-algolia-src-theme-search-page-index-jsda-6-461"
   },
-  "/template/CHANGELOG-0e9": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---template-changelo-gb-9-d-c46"
-  },
-  "/template/dist/js/main.min-dcd": {
-    "component": "component---site-src-pages-template-dist-js-main-min-jsbc-8-898",
-    "config": "config---5-e-9-4f3"
-  },
-  "/template/README-cf2": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---template-readme-83-a-208"
-  },
-  "/template/src/js/main-29e": {
-    "component": "component---site-src-pages-template-src-js-main-js-61-f-fc6",
-    "config": "config---5-e-9-4f3"
-  },
-  "/docs-910": {
+  "/docs-e22": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -99,36 +36,84 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-045-d54"
   },
-  "/docs/Dashboard/chart_widget-c54": {
+  "/docs/connection/http-80b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dashboard-chart-widgetdc-7-983"
+    "content": "content---docs-connection-httped-2-672"
   },
-  "/docs/Dashboard/control_widget-c17": {
+  "/docs/connection/mqtt-ccb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dashboard-control-widgete-2-e-c67"
+    "content": "content---docs-connection-mqtt-63-b-b41"
   },
-  "/docs/Device_management/devices-2ae": {
+  "/docs/connection/opc-ua-114": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-device-management-devices-1-b-6-ff7"
+    "content": "content---docs-connection-opc-uaec-8-9a3"
   },
-  "/docs/Device_management/measurement-098": {
+  "/docs/dashboard/bar-bc8": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-device-management-measurement-51-a-292"
+    "content": "content---docs-dashboard-barbcf-b5d"
   },
-  "/docs/Device_management/thing-ac4": {
+  "/docs/dashboard/clock-a43": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-device-management-thing-3-bb-193"
+    "content": "content---docs-dashboard-clock-1-e-8-f28"
   },
-  "/docs/Download/sdk-952": {
+  "/docs/dashboard/couter-5e2": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-download-sdk-052-ba8"
+    "content": "content---docs-dashboard-couterea-8-e8e"
   },
-  "/docs/getStarted-ed7": {
+  "/docs/dashboard/gauge-801": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-get-started-716-a6b"
+    "content": "content---docs-dashboard-gauge-85-d-cac"
   },
-  "/docs/Overview/architecture-df0": {
+  "/docs/dashboard/line-53e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-overview-architecture-96-f-93f"
+    "content": "content---docs-dashboard-linef-03-2a4"
+  },
+  "/docs/dashboard/magic-159": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-dashboard-magic-147-02c"
+  },
+  "/docs/dashboard/pie-2b8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-dashboard-pieb-10-218"
+  },
+  "/docs/dashboard/text-3ba": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-dashboard-texta-63-249"
+  },
+  "/docs/download/sdk-990": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-download-sdk-4-b-9-7dd"
+  },
+  "/docs/example/index-d65": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-example-index-362-b26"
+  },
+  "/docs/getstarted-873": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getstarted-716-622"
+  },
+  "/docs/integrations/systems-259": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-systems-23-c-af4"
+  },
+  "/docs/management/devices-5c8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-management-devicese-3-b-28d"
+  },
+  "/docs/management/measurement-9b5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-management-measurement-28-f-85f"
+  },
+  "/docs/management/thing-a65": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-management-thing-7-bd-c5e"
+  },
+  "/docs/overview/architecture-b4b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-overview-architecturef-7-f-1bf"
+  },
+  "/docs/overview/how-ifra-work-9c1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-overview-how-ifra-work-5-ee-755"
   }
 }

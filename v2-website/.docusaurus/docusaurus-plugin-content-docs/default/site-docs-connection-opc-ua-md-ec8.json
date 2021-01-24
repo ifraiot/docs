@@ -1,0 +1,22 @@
+{
+  "unversionedId": "connection/opc-ua",
+  "id": "connection/opc-ua",
+  "isDocsHomePage": false,
+  "title": "OPC-UA",
+  "description": "ขั้นตอนการส่งข้อมูลด้วย OPC UA จะมีอัพเดตเร็วๆ นี้",
+  "source": "@site/../docs/connection/opc-ua.md",
+  "slug": "/connection/opc-ua",
+  "permalink": "/docs/connection/opc-ua",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "HTTP",
+    "permalink": "/docs/connection/http"
+  },
+  "next": {
+    "title": "Line chart",
+    "permalink": "/docs/dashboard/line"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "dashboard/text",
+  "id": "dashboard/text",
+  "isDocsHomePage": false,
+  "title": "Text",
+  "description": "ในขั้นตอนแรกให้สร้าง Dashboard หากสร้างใว้แล้วให้เข้าไปในหน้า Dashboard แล้วคลิก Create Widget จากนั้นเลือก Text",
+  "source": "@site/../docs/dashboard/text.md",
+  "slug": "/dashboard/text",
+  "permalink": "/docs/dashboard/text",
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Text",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Gauge chart",
+    "permalink": "/docs/dashboard/gauge"
+  },
+  "next": {
+    "title": "Couter",
+    "permalink": "/docs/dashboard/couter"
+  }
+}

@@ -4,8 +4,8 @@
   <ShortName>IFRA IIoT</ShortName>
   <Description>Search IFRA IIoT</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">http://docs.ifra.io/img/icon.png</Image>
-  <Url type="text/html" method="get" template="http://docs.ifra.io//search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="http://docs.ifra.io//opensearch.xml" />
-  <moz:SearchForm>http://docs.ifra.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">/img/icon.png</Image>
+  <Url type="text/html" method="get" template="//search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="//opensearch.xml" />
+  <moz:SearchForm>/</moz:SearchForm>
 </OpenSearchDescription>
