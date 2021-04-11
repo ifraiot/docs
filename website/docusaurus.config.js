@@ -100,7 +100,6 @@ module.exports={
         "src": "img/logo-ifra.svg"
       },
       "items": [
-      
         {
           "to": "docs",
           "activeBasePath": 'docs',
@@ -108,7 +107,7 @@ module.exports={
           "position": "left"
         },
         {
-          "to": "blog",
+          "href": "https://ifra.io/blog",
           "label": "Blog",
           "position": "left"
         },
@@ -122,7 +121,6 @@ module.exports={
     "footer": {
       "links": [],
       "copyright": "Copyright © 2021 IFRA IIoT Platform",
-
     },
     "algolia": {
       "apiKey": "25626fae796133dc1e734c6bcaaeac3c",

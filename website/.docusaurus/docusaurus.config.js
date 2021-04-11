@@ -300,7 +300,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "blog",
+          "href": "https://ifra.io/blog",
           "label": "Blog",
           "position": "left"
         },
