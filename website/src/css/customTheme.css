@@ -619,6 +619,9 @@ header h1 {
   z-index: 2000;
 }
 @media (max-width: 640px) {
+  .tillustration-section-n:after {
+    display: none!important;
+  }
   .az {
     text-align: center;
   }
